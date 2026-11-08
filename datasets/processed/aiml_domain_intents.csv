@@ -1,0 +1,167 @@
+text,intent,category,response
+what is natural language processing,nlp_definition,nlp,"Natural Language Processing (NLP) is a subfield of AI focused on enabling computers to understand, interpret, and generate human language using statistical, ML, and deep learning techniques."
+what does nlp mean,nlp_definition,nlp,"Natural Language Processing (NLP) is a subfield of AI focused on enabling computers to understand, interpret, and generate human language using statistical, ML, and deep learning techniques."
+define nlp,nlp_definition,nlp,"Natural Language Processing (NLP) is a subfield of AI focused on enabling computers to understand, interpret, and generate human language using statistical, ML, and deep learning techniques."
+tell me about natural language processing,nlp_definition,nlp,"Natural Language Processing (NLP) is a subfield of AI focused on enabling computers to understand, interpret, and generate human language using statistical, ML, and deep learning techniques."
+can you explain nlp,nlp_definition,nlp,"Natural Language Processing (NLP) is a subfield of AI focused on enabling computers to understand, interpret, and generate human language using statistical, ML, and deep learning techniques."
+explain tokenization in nlp,nlp_tokenization,nlp,"Tokenization is the process of breaking down raw text into smaller semantic units called tokens, such as words, subwords, or punctuation."
+how does word tokenization work,nlp_tokenization,nlp,"Tokenization is the process of breaking down raw text into smaller semantic units called tokens, such as words, subwords, or punctuation."
+what are tokens in text,nlp_tokenization,nlp,"Tokenization is the process of breaking down raw text into smaller semantic units called tokens, such as words, subwords, or punctuation."
+tokenization meaning,nlp_tokenization,nlp,"Tokenization is the process of breaking down raw text into smaller semantic units called tokens, such as words, subwords, or punctuation."
+explain breaking sentences into words,nlp_tokenization,nlp,"Tokenization is the process of breaking down raw text into smaller semantic units called tokens, such as words, subwords, or punctuation."
+what is tf-idf and how does it work,nlp_tfidf,nlp,TF-IDF (Term Frequency - Inverse Document Frequency) measures how important a word is to a document relative to a corpus by weighting high frequency in a document against its frequency across all documents.
+define tf-idf,nlp_tfidf,nlp,TF-IDF (Term Frequency - Inverse Document Frequency) measures how important a word is to a document relative to a corpus by weighting high frequency in a document against its frequency across all documents.
+what is term frequency inverse document frequency,nlp_tfidf,nlp,TF-IDF (Term Frequency - Inverse Document Frequency) measures how important a word is to a document relative to a corpus by weighting high frequency in a document against its frequency across all documents.
+explain tfidf weighting,nlp_tfidf,nlp,TF-IDF (Term Frequency - Inverse Document Frequency) measures how important a word is to a document relative to a corpus by weighting high frequency in a document against its frequency across all documents.
+how does tf-idf vectorize text,nlp_tfidf,nlp,TF-IDF (Term Frequency - Inverse Document Frequency) measures how important a word is to a document relative to a corpus by weighting high frequency in a document against its frequency across all documents.
+difference between stemming and lemmatization,nlp_lemmatization,nlp,"Stemming applies heuristic rules to chop off word affixes (often producing non-words), whereas lemmatization uses vocabulary and morphological analysis to return valid dictionary root words (lemmas)."
+lemmatization vs stemming,nlp_lemmatization,nlp,"Stemming applies heuristic rules to chop off word affixes (often producing non-words), whereas lemmatization uses vocabulary and morphological analysis to return valid dictionary root words (lemmas)."
+stemming and lemmatization differences,nlp_lemmatization,nlp,"Stemming applies heuristic rules to chop off word affixes (often producing non-words), whereas lemmatization uses vocabulary and morphological analysis to return valid dictionary root words (lemmas)."
+what is a lemma in nlp,nlp_lemmatization,nlp,"Stemming applies heuristic rules to chop off word affixes (often producing non-words), whereas lemmatization uses vocabulary and morphological analysis to return valid dictionary root words (lemmas)."
+why use lemmatization,nlp_lemmatization,nlp,"Stemming applies heuristic rules to chop off word affixes (often producing non-words), whereas lemmatization uses vocabulary and morphological analysis to return valid dictionary root words (lemmas)."
+what is named entity recognition,nlp_ner,nlp,"Named Entity Recognition (NER) identifies and categorizes key entities in text into predefined classes such as person names, organizations, locations, dates, and quantities."
+define named entity recognition,nlp_ner,nlp,"Named Entity Recognition (NER) identifies and categorizes key entities in text into predefined classes such as person names, organizations, locations, dates, and quantities."
+what does ner do,nlp_ner,nlp,"Named Entity Recognition (NER) identifies and categorizes key entities in text into predefined classes such as person names, organizations, locations, dates, and quantities."
+how does entity extraction work in spacy,nlp_ner,nlp,"Named Entity Recognition (NER) identifies and categorizes key entities in text into predefined classes such as person names, organizations, locations, dates, and quantities."
+named entities in text,nlp_ner,nlp,"Named Entity Recognition (NER) identifies and categorizes key entities in text into predefined classes such as person names, organizations, locations, dates, and quantities."
+how do word embeddings like word2vec work,nlp_embeddings,nlp,Word embeddings map discrete words into continuous dense vector spaces where semantically similar words have close geometric proximity based on distributional context.
+what are word vectors,nlp_embeddings,nlp,Word embeddings map discrete words into continuous dense vector spaces where semantically similar words have close geometric proximity based on distributional context.
+explain word embeddings,nlp_embeddings,nlp,Word embeddings map discrete words into continuous dense vector spaces where semantically similar words have close geometric proximity based on distributional context.
+how does word2vec represent words,nlp_embeddings,nlp,Word embeddings map discrete words into continuous dense vector spaces where semantically similar words have close geometric proximity based on distributional context.
+vector representations of text,nlp_embeddings,nlp,Word embeddings map discrete words into continuous dense vector spaces where semantically similar words have close geometric proximity based on distributional context.
+explain supervised vs unsupervised learning,ml_paradigms,ml,"Supervised learning trains models on labeled input-output pairs to predict outcomes, while unsupervised learning discovers inherent patterns, clusters, and structures in unlabeled data."
+what is the difference between supervised and unsupervised learning,ml_paradigms,ml,"Supervised learning trains models on labeled input-output pairs to predict outcomes, while unsupervised learning discovers inherent patterns, clusters, and structures in unlabeled data."
+explain supervised vs unsupervised,ml_paradigms,ml,"Supervised learning trains models on labeled input-output pairs to predict outcomes, while unsupervised learning discovers inherent patterns, clusters, and structures in unlabeled data."
+supervised learning vs unsupervised learning,ml_paradigms,ml,"Supervised learning trains models on labeled input-output pairs to predict outcomes, while unsupervised learning discovers inherent patterns, clusters, and structures in unlabeled data."
+what is overfitting and how to prevent it,ml_overfitting,ml,"Overfitting occurs when a model learns noise and specific details of training data rather than general patterns. It is prevented using regularization (L1/L2), cross-validation, dropout, data augmentation, and pruning."
+how do i fix overfitting in my model,ml_overfitting,ml,"Overfitting occurs when a model learns noise and specific details of training data rather than general patterns. It is prevented using regularization (L1/L2), cross-validation, dropout, data augmentation, and pruning."
+what is model overfitting,ml_overfitting,ml,"Overfitting occurs when a model learns noise and specific details of training data rather than general patterns. It is prevented using regularization (L1/L2), cross-validation, dropout, data augmentation, and pruning."
+techniques to prevent overfitting,ml_overfitting,ml,"Overfitting occurs when a model learns noise and specific details of training data rather than general patterns. It is prevented using regularization (L1/L2), cross-validation, dropout, data augmentation, and pruning."
+high variance in machine learning,ml_overfitting,ml,"Overfitting occurs when a model learns noise and specific details of training data rather than general patterns. It is prevented using regularization (L1/L2), cross-validation, dropout, data augmentation, and pruning."
+how does logistic regression work,ml_logistic_regression,ml,Logistic Regression applies the sigmoid function to a linear combination of input features to predict the probability of a binary categorical outcome.
+how does logistic regression classify,ml_logistic_regression,ml,Logistic Regression applies the sigmoid function to a linear combination of input features to predict the probability of a binary categorical outcome.
+explain logistic regression algorithm,ml_logistic_regression,ml,Logistic Regression applies the sigmoid function to a linear combination of input features to predict the probability of a binary categorical outcome.
+what is sigmoid activation in logistic regression,ml_logistic_regression,ml,Logistic Regression applies the sigmoid function to a linear combination of input features to predict the probability of a binary categorical outcome.
+what is support vector machine,ml_svm,ml,Support Vector Machine (SVM) finds the optimal hyperplane that maximizes the margin of separation between distinct classes in high-dimensional feature space.
+how does support vector classifier work,ml_svm,ml,Support Vector Machine (SVM) finds the optimal hyperplane that maximizes the margin of separation between distinct classes in high-dimensional feature space.
+explain support vector machines,ml_svm,ml,Support Vector Machine (SVM) finds the optimal hyperplane that maximizes the margin of separation between distinct classes in high-dimensional feature space.
+what is the kernel trick in svm,ml_svm,ml,Support Vector Machine (SVM) finds the optimal hyperplane that maximizes the margin of separation between distinct classes in high-dimensional feature space.
+svm hyperplane explanation,ml_svm,ml,Support Vector Machine (SVM) finds the optimal hyperplane that maximizes the margin of separation between distinct classes in high-dimensional feature space.
+difference between precision recall and f1 score,ml_metrics,ml,"Precision is TP / (TP + FP) (correct positive predictions), Recall is TP / (TP + FN) (actual positives caught), and F1-score is the harmonic mean balancing precision and recall."
+difference between precision and recall,ml_metrics,ml,"Precision is TP / (TP + FP) (correct positive predictions), Recall is TP / (TP + FN) (actual positives caught), and F1-score is the harmonic mean balancing precision and recall."
+how to calculate f1 score,ml_metrics,ml,"Precision is TP / (TP + FP) (correct positive predictions), Recall is TP / (TP + FN) (actual positives caught), and F1-score is the harmonic mean balancing precision and recall."
+when to use precision vs recall,ml_metrics,ml,"Precision is TP / (TP + FP) (correct positive predictions), Recall is TP / (TP + FN) (actual positives caught), and F1-score is the harmonic mean balancing precision and recall."
+evaluation metrics in ml,ml_metrics,ml,"Precision is TP / (TP + FP) (correct positive predictions), Recall is TP / (TP + FN) (actual positives caught), and F1-score is the harmonic mean balancing precision and recall."
+what is confusion matrix,ml_confusion_matrix,ml,"A Confusion Matrix is a performance table comparing actual ground truth labels against model predictions across True Positives, True Negatives, False Positives, and False Negatives."
+what is a confusion matrix in machine learning,ml_confusion_matrix,ml,"A Confusion Matrix is a performance table comparing actual ground truth labels against model predictions across True Positives, True Negatives, False Positives, and False Negatives."
+explain false positive and false negative,ml_confusion_matrix,ml,"A Confusion Matrix is a performance table comparing actual ground truth labels against model predictions across True Positives, True Negatives, False Positives, and False Negatives."
+how to interpret confusion matrix,ml_confusion_matrix,ml,"A Confusion Matrix is a performance table comparing actual ground truth labels against model predictions across True Positives, True Negatives, False Positives, and False Negatives."
+explain cross validation in machine learning,ml_cross_validation,ml,"K-Fold Cross-Validation partitions data into K subsets, iteratively training on K-1 folds and validating on the remaining fold to assess model generalization without data leakage."
+what is k fold cross validation,ml_cross_validation,ml,"K-Fold Cross-Validation partitions data into K subsets, iteratively training on K-1 folds and validating on the remaining fold to assess model generalization without data leakage."
+how does cross validation work,ml_cross_validation,ml,"K-Fold Cross-Validation partitions data into K subsets, iteratively training on K-1 folds and validating on the remaining fold to assess model generalization without data leakage."
+why do we use cross validation,ml_cross_validation,ml,"K-Fold Cross-Validation partitions data into K subsets, iteratively training on K-1 folds and validating on the remaining fold to assess model generalization without data leakage."
+what is a neural network,dl_neural_network,deep_learning,"An Artificial Neural Network is a computational architecture inspired by biological neural circuits, composed of layers of interconnected nodes (neurons) that learn non-linear representations via forward propagation and backpropagation."
+how do artificial neural networks work,dl_neural_network,deep_learning,"An Artificial Neural Network is a computational architecture inspired by biological neural circuits, composed of layers of interconnected nodes (neurons) that learn non-linear representations via forward propagation and backpropagation."
+explain deep neural networks,dl_neural_network,deep_learning,"An Artificial Neural Network is a computational architecture inspired by biological neural circuits, composed of layers of interconnected nodes (neurons) that learn non-linear representations via forward propagation and backpropagation."
+what are hidden layers in a neural network,dl_neural_network,deep_learning,"An Artificial Neural Network is a computational architecture inspired by biological neural circuits, composed of layers of interconnected nodes (neurons) that learn non-linear representations via forward propagation and backpropagation."
+what is backpropagation,dl_backprop,deep_learning,Backpropagation calculates the gradient of the loss function with respect to each model weight using the chain rule of calculus to update weights via gradient descent.
+how does backpropagation calculate gradients,dl_backprop,deep_learning,Backpropagation calculates the gradient of the loss function with respect to each model weight using the chain rule of calculus to update weights via gradient descent.
+explain the backpropagation algorithm,dl_backprop,deep_learning,Backpropagation calculates the gradient of the loss function with respect to each model weight using the chain rule of calculus to update weights via gradient descent.
+chain rule in neural networks,dl_backprop,deep_learning,Backpropagation calculates the gradient of the loss function with respect to each model weight using the chain rule of calculus to update weights via gradient descent.
+what are transformers in ai,dl_transformers,deep_learning,The Transformer is a deep learning architecture that relies entirely on self-attention mechanisms to model global dependencies between input tokens in parallel without sequential recurrence.
+what is attention mechanism in transformers,dl_transformers,deep_learning,The Transformer is a deep learning architecture that relies entirely on self-attention mechanisms to model global dependencies between input tokens in parallel without sequential recurrence.
+explain self-attention architecture,dl_transformers,deep_learning,The Transformer is a deep learning architecture that relies entirely on self-attention mechanisms to model global dependencies between input tokens in parallel without sequential recurrence.
+how do transformer models work,dl_transformers,deep_learning,The Transformer is a deep learning architecture that relies entirely on self-attention mechanisms to model global dependencies between input tokens in parallel without sequential recurrence.
+hello,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+hey,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+hey there,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+good morning,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+good evening,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+greetings,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+namaste,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+halo,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+hello bot,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+hi friend,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+hello there,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+good day,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+howdy,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+sup,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+what's up,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+hi,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+hello,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+hiya,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+welcome,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+glad to be here,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+yo,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+morning,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+evening,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+hi there,greeting,general,"Hi! Welcome to NeuroChat AI. Ask me anything about Machine Learning, NLP, or use our analytics and training tools."
+hey,greeting,general,"Hi! Welcome to NeuroChat AI. Ask me anything about Machine Learning, NLP, or use our analytics and training tools."
+hey there,greeting,general,"Hi! Welcome to NeuroChat AI. Ask me anything about Machine Learning, NLP, or use our analytics and training tools."
+good morning,greeting,general,"Hi! Welcome to NeuroChat AI. Ask me anything about Machine Learning, NLP, or use our analytics and training tools."
+good evening,greeting,general,"Hi! Welcome to NeuroChat AI. Ask me anything about Machine Learning, NLP, or use our analytics and training tools."
+greetings,greeting,general,"Hi! Welcome to NeuroChat AI. Ask me anything about Machine Learning, NLP, or use our analytics and training tools."
+namaste,greeting,general,"Hi! Welcome to NeuroChat AI. Ask me anything about Machine Learning, NLP, or use our analytics and training tools."
+halo,greeting,general,"Hi! Welcome to NeuroChat AI. Ask me anything about Machine Learning, NLP, or use our analytics and training tools."
+hello bot,greeting,general,"Hi! Welcome to NeuroChat AI. Ask me anything about Machine Learning, NLP, or use our analytics and training tools."
+hi friend,greeting,general,"Hi! Welcome to NeuroChat AI. Ask me anything about Machine Learning, NLP, or use our analytics and training tools."
+hello there,greeting,general,"Hi! Welcome to NeuroChat AI. Ask me anything about Machine Learning, NLP, or use our analytics and training tools."
+good day,greeting,general,"Hi! Welcome to NeuroChat AI. Ask me anything about Machine Learning, NLP, or use our analytics and training tools."
+howdy,greeting,general,"Hi! Welcome to NeuroChat AI. Ask me anything about Machine Learning, NLP, or use our analytics and training tools."
+sup,greeting,general,"Hi! Welcome to NeuroChat AI. Ask me anything about Machine Learning, NLP, or use our analytics and training tools."
+what's up,greeting,general,"Hi! Welcome to NeuroChat AI. Ask me anything about Machine Learning, NLP, or use our analytics and training tools."
+hi,greeting,general,"Hi! Welcome to NeuroChat AI. Ask me anything about Machine Learning, NLP, or use our analytics and training tools."
+hello,greeting,general,"Hi! Welcome to NeuroChat AI. Ask me anything about Machine Learning, NLP, or use our analytics and training tools."
+hiya,greeting,general,"Hi! Welcome to NeuroChat AI. Ask me anything about Machine Learning, NLP, or use our analytics and training tools."
+welcome,greeting,general,"Hi! Welcome to NeuroChat AI. Ask me anything about Machine Learning, NLP, or use our analytics and training tools."
+glad to be here,greeting,general,"Hi! Welcome to NeuroChat AI. Ask me anything about Machine Learning, NLP, or use our analytics and training tools."
+yo,greeting,general,"Hi! Welcome to NeuroChat AI. Ask me anything about Machine Learning, NLP, or use our analytics and training tools."
+morning,greeting,general,"Hi! Welcome to NeuroChat AI. Ask me anything about Machine Learning, NLP, or use our analytics and training tools."
+evening,greeting,general,"Hi! Welcome to NeuroChat AI. Ask me anything about Machine Learning, NLP, or use our analytics and training tools."
+who are you,bot_identity,general,"I am NeuroChat AI, an enterprise-grade AI chatbot system built with Python Flask, React, spaCy, NLTK, and Scikit-learn."
+what is your name,bot_identity,general,"I am NeuroChat AI, an enterprise-grade AI chatbot system built with Python Flask, React, spaCy, NLTK, and Scikit-learn."
+tell me about yourself,bot_identity,general,"I am NeuroChat AI, an enterprise-grade AI chatbot system built with Python Flask, React, spaCy, NLTK, and Scikit-learn."
+who made you,bot_identity,general,"I am NeuroChat AI, an enterprise-grade AI chatbot system built with Python Flask, React, spaCy, NLTK, and Scikit-learn."
+what system is this,bot_identity,general,"I am NeuroChat AI, an enterprise-grade AI chatbot system built with Python Flask, React, spaCy, NLTK, and Scikit-learn."
+who are you,bot_identity,general,"I am NeuroChat AI, an enterprise-grade AI chatbot system built with Python Flask, React, spaCy, NLTK, and Scikit-learn."
+what are you called,bot_identity,general,"I am NeuroChat AI, an enterprise-grade AI chatbot system built with Python Flask, React, spaCy, NLTK, and Scikit-learn."
+introduce yourself,bot_identity,general,"I am NeuroChat AI, an enterprise-grade AI chatbot system built with Python Flask, React, spaCy, NLTK, and Scikit-learn."
+identity,bot_identity,general,"I am NeuroChat AI, an enterprise-grade AI chatbot system built with Python Flask, React, spaCy, NLTK, and Scikit-learn."
+your name please,bot_identity,general,"I am NeuroChat AI, an enterprise-grade AI chatbot system built with Python Flask, React, spaCy, NLTK, and Scikit-learn."
+who created neurochat,bot_identity,general,"I am NeuroChat AI, an enterprise-grade AI chatbot system built with Python Flask, React, spaCy, NLTK, and Scikit-learn."
+what chatbot is this,bot_identity,general,"I am NeuroChat AI, an enterprise-grade AI chatbot system built with Python Flask, React, spaCy, NLTK, and Scikit-learn."
+what can you do,bot_capabilities,general,"I can classify intents using trained ML models (Naive Bayes, SVM, Logistic Regression), extract NLP entities, track chat history, analyze datasets, and fallback to generative AI (Groq Qwen/Llama) for open-ended queries."
+help me,bot_capabilities,general,"I can classify intents using trained ML models (Naive Bayes, SVM, Logistic Regression), extract NLP entities, track chat history, analyze datasets, and fallback to generative AI (Groq Qwen/Llama) for open-ended queries."
+what are your features,bot_capabilities,general,"I can classify intents using trained ML models (Naive Bayes, SVM, Logistic Regression), extract NLP entities, track chat history, analyze datasets, and fallback to generative AI (Groq Qwen/Llama) for open-ended queries."
+what tasks can you perform,bot_capabilities,general,"I can classify intents using trained ML models (Naive Bayes, SVM, Logistic Regression), extract NLP entities, track chat history, analyze datasets, and fallback to generative AI (Groq Qwen/Llama) for open-ended queries."
+how do i use neurochat,bot_capabilities,general,"I can classify intents using trained ML models (Naive Bayes, SVM, Logistic Regression), extract NLP entities, track chat history, analyze datasets, and fallback to generative AI (Groq Qwen/Llama) for open-ended queries."
+what can you do,bot_capabilities,general,"I can classify intents using trained ML models (Naive Bayes, SVM, Logistic Regression), extract NLP entities, track chat history, analyze datasets, and fallback to generative AI (Groq Qwen/Llama) for open-ended queries."
+show features,bot_capabilities,general,"I can classify intents using trained ML models (Naive Bayes, SVM, Logistic Regression), extract NLP entities, track chat history, analyze datasets, and fallback to generative AI (Groq Qwen/Llama) for open-ended queries."
+what can you help with,bot_capabilities,general,"I can classify intents using trained ML models (Naive Bayes, SVM, Logistic Regression), extract NLP entities, track chat history, analyze datasets, and fallback to generative AI (Groq Qwen/Llama) for open-ended queries."
+list capabilities,bot_capabilities,general,"I can classify intents using trained ML models (Naive Bayes, SVM, Logistic Regression), extract NLP entities, track chat history, analyze datasets, and fallback to generative AI (Groq Qwen/Llama) for open-ended queries."
+guide me,bot_capabilities,general,"I can classify intents using trained ML models (Naive Bayes, SVM, Logistic Regression), extract NLP entities, track chat history, analyze datasets, and fallback to generative AI (Groq Qwen/Llama) for open-ended queries."
+how to use this app,bot_capabilities,general,"I can classify intents using trained ML models (Naive Bayes, SVM, Logistic Regression), extract NLP entities, track chat history, analyze datasets, and fallback to generative AI (Groq Qwen/Llama) for open-ended queries."
+goodbye,farewell,general,Goodbye! Have a productive day ahead. Feel free to return if you have more questions.
+bye,farewell,general,Goodbye! Have a productive day ahead. Feel free to return if you have more questions.
+see you later,farewell,general,Goodbye! Have a productive day ahead. Feel free to return if you have more questions.
+catch you soon,farewell,general,Goodbye! Have a productive day ahead. Feel free to return if you have more questions.
+talk to you later,farewell,general,Goodbye! Have a productive day ahead. Feel free to return if you have more questions.
+exit,farewell,general,Goodbye! Have a productive day ahead. Feel free to return if you have more questions.
+quit,farewell,general,Goodbye! Have a productive day ahead. Feel free to return if you have more questions.
+goodbye,farewell,general,Goodbye! Have a productive day ahead. Feel free to return if you have more questions.
+have a nice day,farewell,general,Goodbye! Have a productive day ahead. Feel free to return if you have more questions.
+farewell,farewell,general,Goodbye! Have a productive day ahead. Feel free to return if you have more questions.
+cya,farewell,general,Goodbye! Have a productive day ahead. Feel free to return if you have more questions.
+signing off,farewell,general,Goodbye! Have a productive day ahead. Feel free to return if you have more questions.
+bye bye,farewell,general,Goodbye! Have a productive day ahead. Feel free to return if you have more questions.
+thank you,gratitude,general,You are very welcome! Let me know if you need anything else.
+thanks a lot,gratitude,general,You are very welcome! Let me know if you need anything else.
+thanks,gratitude,general,You are very welcome! Let me know if you need anything else.
+appreciate your help,gratitude,general,You are very welcome! Let me know if you need anything else.
+much obliged,gratitude,general,You are very welcome! Let me know if you need anything else.
+awesome thanks,gratitude,general,You are very welcome! Let me know if you need anything else.
+thank you so much,gratitude,general,You are very welcome! Let me know if you need anything else.
+many thanks,gratitude,general,You are very welcome! Let me know if you need anything else.
+helpful,gratitude,general,You are very welcome! Let me know if you need anything else.
+thanks buddy,gratitude,general,You are very welcome! Let me know if you need anything else.
+great thanks,gratitude,general,You are very welcome! Let me know if you need anything else.

@@ -1,0 +1,152 @@
+{
+  "generated_at": "2026-11-08T10:58:47.113053Z",
+  "project": "NeuroChat AI",
+  "datasets": {
+    "CLINC150": {
+      "source_url": "https://raw.githubusercontent.com/clinc/oos-eval/master/data/data_small.json",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "total_records": 14996,
+      "num_intents": 150,
+      "missing_values": 0,
+      "duplicates_removed": 4,
+      "splits": {
+        "train": 7500,
+        "test": 4499,
+        "val": 2997
+      },
+      "status": "verified_and_processed"
+    },
+    "Bitext_Customer_Support": {
+      "source_url": "https://huggingface.co/datasets/bitext/Bitext-customer-support-llm-chatbot-training-dataset/resolve/main/Bitext_Sample_Customer_Support_Training_Dataset_27K_responses-v11.csv",
+      "license": "Apache 2.0 / Open Data Commons",
+      "total_records": 24635,
+      "initial_raw_records": 26872,
+      "num_intents": 27,
+      "categories": [
+        "ORDER",
+        "SHIPPING",
+        "CANCEL",
+        "INVOICE",
+        "PAYMENT",
+        "REFUND",
+        "FEEDBACK",
+        "CONTACT",
+        "ACCOUNT",
+        "DELIVERY",
+        "SUBSCRIPTION"
+      ],
+      "missing_values": 0,
+      "duplicates_removed": 2237,
+      "status": "verified_and_processed"
+    },
+    "Master_NLP_Intent_Dataset": {
+      "total_records": 1638,
+      "train_records": 1310,
+      "test_records": 328,
+      "num_intents": 36,
+      "features": [
+        "text",
+        "intent",
+        "category",
+        "response"
+      ],
+      "missing_values": 0,
+      "train_path": "datasets/processed/nlp_intents_train.csv",
+      "test_path": "datasets/processed/nlp_intents_test.csv",
+      "status": "ready_for_training"
+    },
+    "PredictAI_Bank_Marketing": {
+      "source_url": "https://archive.ics.uci.edu/static/public/222/bank+marketing.zip",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "task_type": "binary_classification",
+      "target_variable": "y",
+      "total_records": 4521,
+      "num_features": 16,
+      "columns": [
+        "age",
+        "job",
+        "marital",
+        "education",
+        "default",
+        "balance",
+        "housing",
+        "loan",
+        "contact",
+        "day",
+        "month",
+        "duration",
+        "campaign",
+        "pdays",
+        "previous",
+        "poutcome",
+        "y"
+      ],
+      "missing_values": 0,
+      "status": "verified_and_processed"
+    },
+    "PredictAI_Student_Performance": {
+      "source_url": "https://archive.ics.uci.edu/static/public/320/student+performance.zip",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "task_type": "regression_and_classification",
+      "target_variable": "G3",
+      "total_records": 395,
+      "num_features": 32,
+      "columns": [
+        "school",
+        "sex",
+        "age",
+        "address",
+        "famsize",
+        "Pstatus",
+        "Medu",
+        "Fedu",
+        "Mjob",
+        "Fjob",
+        "reason",
+        "guardian",
+        "traveltime",
+        "studytime",
+        "failures",
+        "schoolsup",
+        "famsup",
+        "paid",
+        "activities",
+        "nursery",
+        "higher",
+        "internet",
+        "romantic",
+        "famrel",
+        "freetime",
+        "goout",
+        "Dalc",
+        "Walc",
+        "health",
+        "absences",
+        "G1",
+        "G2",
+        "G3"
+      ],
+      "missing_values": 0,
+      "status": "verified_and_processed"
+    },
+    "PredictAI_Online_Retail": {
+      "source_url": "https://archive.ics.uci.edu/static/public/352/online+retail.zip",
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "task_type": "customer_segmentation_clustering",
+      "total_records": 15000,
+      "initial_records": 541909,
+      "features": [
+        "InvoiceNo",
+        "StockCode",
+        "Description",
+        "Quantity",
+        "InvoiceDate",
+        "UnitPrice",
+        "CustomerID",
+        "Country"
+      ],
+      "missing_values": 0,
+      "status": "verified_and_processed"
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "ml_logistic_regression": {
+    "response": "Logistic Regression applies the sigmoid function to a linear combination of input features to predict the probability of a binary categorical outcome.",
+    "category": "ml"
+  },
+  "weather": {
+    "response": "Weather queries can be augmented with real-time API integrations or generative fallback.",
+    "category": "service"
+  },
+  "reminder": {
+    "response": "Reminders and tasks can be logged to your session memory.",
+    "category": "service"
+  },
+  "account_blocked": {
+    "response": "If your account is locked, an administrator can unlock it via the Admin Dashboard.",
+    "category": "service"
+  },
+  "user_name": {
+    "response": "I can identify your user profile from your secure session.",
+    "category": "service"
+  },
+  "what_can_i_ask_you": {
+    "response": "You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics.",
+    "category": "service"
+  },
+  "order_status": {
+    "response": "Your recent order status is logged in the database records.",
+    "category": "service"
+  },
+  "transactions": {
+    "response": "All transactions and interaction histories are recorded securely in MongoDB.",
+    "category": "service"
+  },
+  "definition": {
+    "response": "Provide any computer science term, and I will define its mathematical and practical meaning.",
+    "category": "service"
+  },
+  "bot_capabilities": {
+    "response": "I can classify intents using trained ML models (Naive Bayes, SVM, Logistic Regression), extract NLP entities, track chat history, analyze datasets, and fallback to generative AI (Groq Qwen/Llama) for open-ended queries.",
+    "category": "general"
+  },
+  "calculator": {
+    "response": "I can evaluate mathematical expressions and machine learning equations.",
+    "category": "service"
+  },
+  "time": {
+    "response": "You can check current conversation timestamps on every message bubble.",
+    "category": "service"
+  },
+  "nlp_lemmatization": {
+    "response": "Stemming applies heuristic rules to chop off word affixes (often producing non-words), whereas lemmatization uses vocabulary and morphological analysis to return valid dictionary root words (lemmas).",
+    "category": "nlp"
+  },
+  "date": {
+    "response": "Today's date is managed through the system clock and conversation logs.",
+    "category": "service"
+  },
+  "timezone": {
+    "response": "The server system runs on standard UTC time and adapts to your client time.",
+    "category": "service"
+  },
+  "transfer": {
+    "response": "Funds transfer requires elevated user verification and ledger confirmation.",
+    "category": "service"
+  },
+  "bill_balance": {
+    "response": "Your current ledger balance is available in your account overview.",
+    "category": "service"
+  },
+  "dl_backprop": {
+    "response": "Backpropagation calculates the gradient of the loss function with respect to each model weight using the chain rule of calculus to update weights via gradient descent.",
+    "category": "deep_learning"
+  },
+  "ml_metrics": {
+    "response": "Precision is TP / (TP + FP) (correct positive predictions), Recall is TP / (TP + FN) (actual positives caught), and F1-score is the harmonic mean balancing precision and recall.",
+    "category": "ml"
+  },
+  "pin_change": {
+    "response": "Security PIN changes require authenticated multi-factor verification.",
+    "category": "service"
+  },
+  "ml_overfitting": {
+    "response": "Overfitting occurs when a model learns noise and specific details of training data rather than general patterns. It is prevented using regularization (L1/L2), cross-validation, dropout, data augmentation, and pruning.",
+    "category": "ml"
+  },
+  "gratitude": {
+    "response": "You are very welcome! Let me know if you need anything else.",
+    "category": "general"
+  },
+  "farewell": {
+    "response": "Goodbye! Have a productive day ahead. Feel free to return if you have more questions.",
+    "category": "general"
+  },
+  "bot_identity": {
+    "response": "I am NeuroChat AI, an enterprise-grade AI chatbot system built with Python Flask, React, spaCy, NLTK, and Scikit-learn.",
+    "category": "general"
+  },
+  "greeting": {
+    "response": "Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?",
+    "category": "general"
+  },
+  "dl_neural_network": {
+    "response": "An Artificial Neural Network is a computational architecture inspired by biological neural circuits, composed of layers of interconnected nodes (neurons) that learn non-linear representations via forward propagation and backpropagation.",
+    "category": "deep_learning"
+  },
+  "ml_cross_validation": {
+    "response": "K-Fold Cross-Validation partitions data into K subsets, iteratively training on K-1 folds and validating on the remaining fold to assess model generalization without data leakage.",
+    "category": "ml"
+  },
+  "nlp_tfidf": {
+    "response": "TF-IDF (Term Frequency - Inverse Document Frequency) measures how important a word is to a document relative to a corpus by weighting high frequency in a document against its frequency across all documents.",
+    "category": "nlp"
+  },
+  "dl_transformers": {
+    "response": "The Transformer is a deep learning architecture that relies entirely on self-attention mechanisms to model global dependencies between input tokens in parallel without sequential recurrence.",
+    "category": "deep_learning"
+  },
+  "nlp_ner": {
+    "response": "Named Entity Recognition (NER) identifies and categorizes key entities in text into predefined classes such as person names, organizations, locations, dates, and quantities.",
+    "category": "nlp"
+  },
+  "nlp_tokenization": {
+    "response": "Tokenization is the process of breaking down raw text into smaller semantic units called tokens, such as words, subwords, or punctuation.",
+    "category": "nlp"
+  },
+  "ml_svm": {
+    "response": "Support Vector Machine (SVM) finds the optimal hyperplane that maximizes the margin of separation between distinct classes in high-dimensional feature space.",
+    "category": "ml"
+  },
+  "nlp_definition": {
+    "response": "Natural Language Processing (NLP) is a subfield of AI focused on enabling computers to understand, interpret, and generate human language using statistical, ML, and deep learning techniques.",
+    "category": "nlp"
+  },
+  "ml_confusion_matrix": {
+    "response": "A Confusion Matrix is a performance table comparing actual ground truth labels against model predictions across True Positives, True Negatives, False Positives, and False Negatives.",
+    "category": "ml"
+  },
+  "nlp_embeddings": {
+    "response": "Word embeddings map discrete words into continuous dense vector spaces where semantically similar words have close geometric proximity based on distributional context.",
+    "category": "nlp"
+  },
+  "ml_paradigms": {
+    "response": "Supervised learning trains models on labeled input-output pairs to predict outcomes, while unsupervised learning discovers inherent patterns, clusters, and structures in unlabeled data.",
+    "category": "ml"
+  }
+}

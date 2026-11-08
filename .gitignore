@@ -1,0 +1,38 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments & Credentials (NEVER COMMIT)
+.env
+backend/.env
+frontend/.env.local
+frontend/.env.production
+
+# Node & Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Models & Big Binary Artifacts (keep lightweight models tracked or in models/manifest)
+models/*.pkl
+*.tar.gz
+*.zip
+
+# Database / Local logs
+*.log
+system.log
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS specific
+.DS_Store
+Thumbs.db

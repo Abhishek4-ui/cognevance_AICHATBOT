@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start NeuroChat (All-In-One)",
+      "type": "shell",
+      "command": "./start.sh",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Run Automated Tests (Pytest)",
+      "type": "shell",
+      "command": "PYTHONPATH=. ./venv/bin/pytest tests/ -v",
+      "problemMatcher": []
+    }
+  ]
+}

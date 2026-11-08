@@ -1,0 +1,1311 @@
+text,intent,category,response
+what is sigmoid activation in logistic regression,ml_logistic_regression,ml,Logistic Regression applies the sigmoid function to a linear combination of input features to predict the probability of a binary categorical outcome.
+what's is the current weather forecast,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+read my list of reminders,reminder,service,Reminders and tasks can be logged to your session memory.
+why is there a hold on my charles swab account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+can you tell me what you refer to me as,user_name,service,I can identify your user profile from your secure session.
+what are you able to do,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+tell me what you think my name is,user_name,service,I can identify your user profile from your secure session.
+track the status of my purchase,order_status,service,Your recent order status is logged in the database records.
+can you check on a transaction for me,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+what can you be asked about,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+exactly what does altruism mean,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+what tasks can you perform,bot_capabilities,general,"I can classify intents using trained ML models (Naive Bayes, SVM, Logistic Regression), extract NLP entities, track chat history, analyze datasets, and fallback to generative AI (Groq Qwen/Llama) for open-ended queries."
+tell me please what paean means,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+how many times can 3 be divided into 1253,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+is it after noon,time,service,You can check current conversation timestamps on every message bubble.
+what time is it right now in paris,time,service,You can check current conversation timestamps on every message bubble.
+lemmatization vs stemming,nlp_lemmatization,nlp,"Stemming applies heuristic rules to chop off word affixes (often producing non-words), whereas lemmatization uses vocabulary and morphological analysis to return valid dictionary root words (lemmas)."
+can you tell me what 30% off 235 is,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+"in 5 days from today, what will the date be",date,service,Today's date is managed through the system clock and conversation logs.
+what are the time zones of russia,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+how much was my last target trip,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+what is the weather outside,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+what can i ask the ai,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+can you tell me what name you have for me,user_name,service,I can identify your user profile from your secure session.
+what would you like to call me,user_name,service,I can identify your user profile from your secure session.
+"tell me the date, please",date,service,Today's date is managed through the system clock and conversation logs.
+what transactions did i put on my visa last month,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+let's send some money to another account,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+how much do i owe visa,bill_balance,service,Your current ledger balance is available in your account overview.
+what does mature mean,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+today is which day of the week,date,service,Today's date is managed through the system clock and conversation logs.
+"i need the dollar amount due on my verizon bill, please",bill_balance,service,Your current ledger balance is available in your account overview.
+let me know the date tomorrow,date,service,Today's date is managed through the system clock and conversation logs.
+are you able to track my package,order_status,service,Your recent order status is logged in the database records.
+what subjects are you versed in,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+which time zone is germany is in,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+timezone currently in mobile,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+add all my bills for this month and tell me the total,bill_balance,service,Your current ledger balance is available in your account overview.
+what are in my reminders list,reminder,service,Reminders and tasks can be logged to your session memory.
+chain rule in neural networks,dl_backprop,deep_learning,Backpropagation calculates the gradient of the loss function with respect to each model weight using the chain rule of calculus to update weights via gradient descent.
+what is the cost of water and electric this month,bill_balance,service,Your current ledger balance is available in your account overview.
+i need to transfer one thousand dollars to my savings account from my checking,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+why is my bank account blocking me,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+what were those things i wanted to remember,reminder,service,Reminders and tasks can be logged to your session memory.
+what is the weather doing in austin,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+what timezone is reno in,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+difference between precision and recall,ml_metrics,ml,"Precision is TP / (TP + FP) (correct positive predictions), Recall is TP / (TP + FN) (actual positives caught), and F1-score is the harmonic mean balancing precision and recall."
+i would like to know what today's date is,date,service,Today's date is managed through the system clock and conversation logs.
+list all purchases of video games,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+what is the weather report for seattle,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+"i think all my bills are paid, but can you double check",bill_balance,service,Your current ledger balance is available in your account overview.
+whats the exact time,time,service,You can check current conversation timestamps on every message bubble.
+i want to change my savings account pin to 1234,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+what time is it in the eastern standard timezone,time,service,You can check current conversation timestamps on every message bubble.
+switch the pin on my chase account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+help me get access to my recent transaction history,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+where's my package right now,order_status,service,Your recent order status is logged in the database records.
+how is the weather looking in seattle,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+i want you to let me know what names you have for me,user_name,service,I can identify your user profile from your secure session.
+i need to transfer from this account to that one,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+high variance in machine learning,ml_overfitting,ml,"Overfitting occurs when a model learns noise and specific details of training data rather than general patterns. It is prevented using regularization (L1/L2), cross-validation, dropout, data augmentation, and pruning."
+check to see why us bank placed a hold on my account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+tell me the timezone that spain is in,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+what time would it be in rome right now,time,service,You can check current conversation timestamps on every message bubble.
+what did i want to remember again,reminder,service,Reminders and tasks can be logged to your session memory.
+how do i use neurochat,bot_capabilities,general,"I can classify intents using trained ML models (Naive Bayes, SVM, Logistic Regression), extract NLP entities, track chat history, analyze datasets, and fallback to generative AI (Groq Qwen/Llama) for open-ended queries."
+tell me my name the way its saved,user_name,service,I can identify your user profile from your secure session.
+what are the weather conditions like in seattle,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+i would like to know the timezone for britain,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+look up zesty in dictionary,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+what time is it in the pacific timezone,time,service,You can check current conversation timestamps on every message bubble.
+what is the square root of 8814,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+"help me, i forgot my pin number",pin_change,service,Security PIN changes require authenticated multi-factor verification.
+i need you to help me with some math if you can,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+how much do you think my rent and electric bills are,bill_balance,service,Your current ledger balance is available in your account overview.
+what's the name of the day today,date,service,Today's date is managed through the system clock and conversation logs.
+send $5 from savings to checking,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+what did i list in my reminders,reminder,service,Reminders and tasks can be logged to your session memory.
+what time is it exactly in the new zealand time zone,time,service,You can check current conversation timestamps on every message bubble.
+much obliged,gratitude,general,You are very welcome! Let me know if you need anything else.
+today is what day of the week,date,service,Today's date is managed through the system clock and conversation logs.
+i would like assistance moving money from one account to another,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+what types of things are you able to do,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+cya,farewell,general,Goodbye! Have a productive day ahead. Feel free to return if you have more questions.
+can you tell me my name for me,user_name,service,I can identify your user profile from your secure session.
+help me solve this math equation,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+what is 2 + 2,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+what did i put on my list of reminders,reminder,service,Reminders and tasks can be logged to your session memory.
+how cold is it going to be tonight,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+"what is today's month, day and year",date,service,Today's date is managed through the system clock and conversation logs.
+what time is it exactly,time,service,You can check current conversation timestamps on every message bubble.
+read my bill balances,bill_balance,service,Your current ledger balance is available in your account overview.
+how is that weather,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+check my reminders for mop the floor,reminder,service,Reminders and tasks can be logged to your session memory.
+how much money can i transfer today,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+help me change my pin number for my money market account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+is my order shown as delivered,order_status,service,Your recent order status is logged in the database records.
+what's the chance of rain on friday,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+what's the current time,time,service,You can check current conversation timestamps on every message bubble.
+appreciate your help,gratitude,general,You are very welcome! Let me know if you need anything else.
+i need to know the pin number to my card,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+i want to change my bank of america account pin number,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+flange means what,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+what is the reason for frozen status on my bank account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+what s the uv index tomorrow,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+how can i use you,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+how much do i have to pay for my cable bill,bill_balance,service,Your current ledger balance is available in your account overview.
+tell me why i get an error logging in to my bank account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+what does anachronistic mean,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+why did my bank account freeze,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+i would like to replace the pin number for my retirement account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+what is the square root of 888,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+what is 750 divided by 5,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+what timezone is china in,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+i would like to take a look at my transaction history,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+your name please,bot_identity,general,"I am NeuroChat AI, an enterprise-grade AI chatbot system built with Python Flask, React, spaCy, NLTK, and Scikit-learn."
+i got to change my pin number for my account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+what is the name you associate with me,user_name,service,I can identify your user profile from your secure session.
+send 2000 dollars between chase and rabobank accounts,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+i would like to know the time,time,service,You can check current conversation timestamps on every message bubble.
+i forgot the pin number for my college fund account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+what's the amount due on my vet and vehicle registration bills,bill_balance,service,Your current ledger balance is available in your account overview.
+please read my reminders,reminder,service,Reminders and tasks can be logged to your session memory.
+so what is my current name saved as,user_name,service,I can identify your user profile from your secure session.
+has my purchase arrived yet,order_status,service,Your recent order status is logged in the database records.
+let's take a look at the weather,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+what categories of questions can you answer,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+do you know why my bank account is frozen,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+what is the current est time,time,service,You can check current conversation timestamps on every message bubble.
+what's the weather today,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+i want to see my entertainment transactions,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+i want to know what my recent transaction was,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+what is the time in est,time,service,You can check current conversation timestamps on every message bubble.
+help me change my pin number,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+how is the time,time,service,You can check current conversation timestamps on every message bubble.
+i would like to change my pin number for my chase account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+why does us bank have a hold on my account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+tell me what the time is in dallas,time,service,You can check current conversation timestamps on every message bubble.
+date please,date,service,Today's date is managed through the system clock and conversation logs.
+please go though the bullet points on my reminder list,reminder,service,Reminders and tasks can be logged to your session memory.
+there seems to be an issue with my account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+i have to transfer ten dollars from my bank of america account to my capital one account,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+can you help with delivery tracking,order_status,service,Your recent order status is logged in the database records.
+can you add 5 and 89,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+move a dollar from my checkings to my savings,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+hey there,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+what is the definiton of auspicious,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+what will the weather be like,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+what is 87 divided by 4,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+who made you,bot_identity,general,"I am NeuroChat AI, an enterprise-grade AI chatbot system built with Python Flask, React, spaCy, NLTK, and Scikit-learn."
+what is the timezone for san francisco,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+my list of reminders contains what,reminder,service,Reminders and tasks can be logged to your session memory.
+it looks like my account is blocked but i have no clue why,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+can you unlock my bank account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+what is 55 times 300,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+i need to know the transactions i made on the 10th,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+can you help me unblock my account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+"if you were smart, would you know my name",user_name,service,I can identify your user profile from your secure session.
+what transactions have i accrued buying dog food,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+i would like to make a transfer,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+"my account has a hold on it and i can't access my funds, why",account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+what is the largest transaction i have made on video games this month,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+what did i want to remember,reminder,service,Reminders and tasks can be logged to your session memory.
+bye,farewell,general,Goodbye! Have a productive day ahead. Feel free to return if you have more questions.
+can you subract 36 from 5,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+let me know the amounts i owe for my utilities and tuition bills,bill_balance,service,Your current ledger balance is available in your account overview.
+does phoenix have a different timezone,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+what is 3/4 of 18,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+what is the name you would use for me,user_name,service,I can identify your user profile from your secure session.
+i need 200 dollars transferred from my long island savings account to my chase checking,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+do you have the date,date,service,Today's date is managed through the system clock and conversation logs.
+please define erection for me,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+can you tell me the definition of sucrose,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+why cannot i take any money out from my bank account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+i need to know what timezone sedona is in,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+when will the clothes i ordered online arrive,order_status,service,Your recent order status is logged in the database records.
+what does amicable mean,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+how much do i have to pay this month,bill_balance,service,Your current ledger balance is available in your account overview.
+please let me review all items on my mastercard from this billing period,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+send money to another account,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+what are you programmed to do for me,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+has the order that i placed arrived,order_status,service,Your recent order status is logged in the database records.
+what was my last transaction,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+put $20000 into my checking account from my savings account,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+show me my transactions on clothes at macys,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+define zesty,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+what is the timezone for quito,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+i want to see all transactions in the past month for all accounts,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+go my to checking account and switch my pin to 1234,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+can you check and see if my account's blocked,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+what does it say on the clock,time,service,You can check current conversation timestamps on every message bubble.
+what's chicago's time zone,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+how do i unlock my bank account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+what's the forecast for the day,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+change my amex account pin to 1234,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+tell me what flange means,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+read my reminder list,reminder,service,Reminders and tasks can be logged to your session memory.
+explain deep neural networks,dl_neural_network,deep_learning,"An Artificial Neural Network is a computational architecture inspired by biological neural circuits, composed of layers of interconnected nodes (neurons) that learn non-linear representations via forward propagation and backpropagation."
+i seem to have lost the pin for my retirement account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+what does unsavory mean,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+how expensive is my internet,bill_balance,service,Your current ledger balance is available in your account overview.
+tell me what day it is,date,service,Today's date is managed through the system clock and conversation logs.
+what is your name,bot_identity,general,"I am NeuroChat AI, an enterprise-grade AI chatbot system built with Python Flask, React, spaCy, NLTK, and Scikit-learn."
+can you tell me what things i was trying to remember,reminder,service,Reminders and tasks can be logged to your session memory.
+what timezone is russia in,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+can you assist me in moving money from one account to another,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+i would like to change the name on my first bankcard account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+difference between precision recall and f1 score,ml_metrics,ml,"Precision is TP / (TP + FP) (correct positive predictions), Recall is TP / (TP + FN) (actual positives caught), and F1-score is the harmonic mean balancing precision and recall."
+i would like to change the name on my checking account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+can we wire some money over to the other account i have,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+what timezone is britain in,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+what about the weather in austin,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+what is the definition of the word migrate,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+please tell me what today is,date,service,Today's date is managed through the system clock and conversation logs.
+what does zesty mean,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+was my order brought here,order_status,service,Your recent order status is logged in the database records.
+show me what the weather is like,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+how do you reference me,user_name,service,I can identify your user profile from your secure session.
+i want a new pin for my savings account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+what knowledge do you have on certain subjects,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+what is 38% of 389209,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+what's the current time in est,time,service,You can check current conversation timestamps on every message bubble.
+what's the timezone now in hiram,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+what is k fold cross validation,ml_cross_validation,ml,"K-Fold Cross-Validation partitions data into K subsets, iteratively training on K-1 folds and validating on the remaining fold to assess model generalization without data leakage."
+change the pin on my savings account to 1234,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+help me,bot_capabilities,general,"I can classify intents using trained ML models (Naive Bayes, SVM, Logistic Regression), extract NLP entities, track chat history, analyze datasets, and fallback to generative AI (Groq Qwen/Llama) for open-ended queries."
+what time is it now pacific time,time,service,You can check current conversation timestamps on every message bubble.
+i would like to change the pin on my savings account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+can you tell me what you can help with,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+i wanna know what timezone spain is in,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+talk to you later,farewell,general,Goodbye! Have a productive day ahead. Feel free to return if you have more questions.
+on my card what have been my recent purchases,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+what day of the month is it,date,service,Today's date is managed through the system clock and conversation logs.
+can you please help me move $100 from my checking to saving account,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+tell me the meaning of condemnation,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+what can you do to make yourself useful,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+what timezone is paris in,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+explain tfidf weighting,nlp_tfidf,nlp,TF-IDF (Term Frequency - Inverse Document Frequency) measures how important a word is to a document relative to a corpus by weighting high frequency in a document against its frequency across all documents.
+why is my account locked,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+what's affiliate definition,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+was my last transaction at walmart,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+was the order delivered,order_status,service,Your recent order status is logged in the database records.
+what is it i wanted to bear in mind,reminder,service,Reminders and tasks can be logged to your session memory.
+why am i seeing a hold on my boa account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+what sorts of tasks can you do,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+check with my bank to see why my account is frozen,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+did my order ship,order_status,service,Your recent order status is logged in the database records.
+what do you have answers for,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+what are you familiar with,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+welcome,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+how much is my electric bill for this month,bill_balance,service,Your current ledger balance is available in your account overview.
+how do you address my name,user_name,service,I can identify your user profile from your secure session.
+show me the transaction on macys,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+can you change my 1st national account pin to 4892,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+define tf-idf,nlp_tfidf,nlp,TF-IDF (Term Frequency - Inverse Document Frequency) measures how important a word is to a document relative to a corpus by weighting high frequency in a document against its frequency across all documents.
+what kinds of things can you do,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+make an eft to my savings from my checking account,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+has my delivery order arrived yet,order_status,service,Your recent order status is logged in the database records.
+what is the name you have for me,user_name,service,I can identify your user profile from your secure session.
+define monetary for me please,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+do you know how to refer to me,user_name,service,I can identify your user profile from your secure session.
+the time is what,time,service,You can check current conversation timestamps on every message bubble.
+what do my bills look like for amazon and netflix,bill_balance,service,Your current ledger balance is available in your account overview.
+what are the thing i told you to help me remember,reminder,service,Reminders and tasks can be logged to your session memory.
+what is attention mechanism in transformers,dl_transformers,deep_learning,The Transformer is a deep learning architecture that relies entirely on self-attention mechanisms to model global dependencies between input tokens in parallel without sequential recurrence.
+by what name people call me,user_name,service,I can identify your user profile from your secure session.
+what items did i want to remember,reminder,service,Reminders and tasks can be logged to your session memory.
+what does tertiary mean,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+what is 22+ 6,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+is there a reason you put a hold on my chase account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+what's my name huh,user_name,service,I can identify your user profile from your secure session.
+i need $360 transfered from savings to checking account,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+send from my bbc money market to my t rowe price money market seven thousand dollars,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+i want to change my pin number for my checking account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+i need to track my order,order_status,service,Your recent order status is logged in the database records.
+why would the bank have frozen my account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+please give me the time,time,service,You can check current conversation timestamps on every message bubble.
+what is 13 times 45,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+what's the climate like in chicago,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+time zone in france,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+named entities in text,nlp_ner,nlp,"Named Entity Recognition (NER) identifies and categorizes key entities in text into predefined classes such as person names, organizations, locations, dates, and quantities."
+which subjects are you the most experienced with,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+what is the status of my order,order_status,service,Your recent order status is logged in the database records.
+tell me what name you have for me,user_name,service,I can identify your user profile from your secure session.
+what transactions did i make yesterday at the flea market,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+what date will it be 5 days from now,date,service,Today's date is managed through the system clock and conversation logs.
+what is my name saved as,user_name,service,I can identify your user profile from your secure session.
+let me know the list of transaction on my first hawaiian bank,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+techniques to prevent overfitting,ml_overfitting,ml,"Overfitting occurs when a model learns noise and specific details of training data rather than general patterns. It is prevented using regularization (L1/L2), cross-validation, dropout, data augmentation, and pruning."
+what timezone is miami in,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+give me the 7 day forecast,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+what time is it in pacific standard time,time,service,You can check current conversation timestamps on every message bubble.
+i need ten dollars sent from b of a to washington mutual,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+weather,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+"given my time, what time is it in mst",time,service,You can check current conversation timestamps on every message bubble.
+what is the sum of eleven and ten,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+what is texas's timezone,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+what is the date of tomorrow,date,service,Today's date is managed through the system clock and conversation logs.
+what were you supposed to remind me of,reminder,service,Reminders and tasks can be logged to your session memory.
+transfer 100 dollars between checking and savings,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+why does my visa account have a hold on it,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+"was a hold placed on my wells fargo account, and if so why",account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+reno's timezone is what,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+would you move 100 dollars from the checking and put it into savings,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+how many transactions do i have on flower shops from last wednesday between 2pm and 7pm,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+what timezone is japan in,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+please review my recent visa card transaction,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+can you multiply 45 by 23,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+who are you,bot_identity,general,"I am NeuroChat AI, an enterprise-grade AI chatbot system built with Python Flask, React, spaCy, NLTK, and Scikit-learn."
+what's the weather like,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+i think my account is blocked but i do not know the reason,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+what's the sum of all i owe on bills this month,bill_balance,service,Your current ledger balance is available in your account overview.
+can you tell me where my item is,order_status,service,Your recent order status is logged in the database records.
+what kinds of things are you supposed to remind me of,reminder,service,Reminders and tasks can be logged to your session memory.
+what will tomorrow be on the calendar,date,service,Today's date is managed through the system clock and conversation logs.
+"whats on my reminder list, read back",reminder,service,Reminders and tasks can be logged to your session memory.
+i need the pin number for my checking account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+show me all new transactions,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+what kind of questions are you good at answering,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+what all can i ask you,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+tell me the weather,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+divide 100 by 12,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+i need to know the amounts due for my utilities and cable bills,bill_balance,service,Your current ledger balance is available in your account overview.
+i need some information on a recent transaction,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+what are tokens in text,nlp_tokenization,nlp,"Tokenization is the process of breaking down raw text into smaller semantic units called tokens, such as words, subwords, or punctuation."
+awesome thanks,gratitude,general,You are very welcome! Let me know if you need anything else.
+what's 15% of 68,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+i bought 6 shirts at $499 each what was my total expenditure for them,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+can i see my transactions from yesterday,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+what do i owe for my utilities bill,bill_balance,service,Your current ledger balance is available in your account overview.
+give me the status of my order,order_status,service,Your recent order status is logged in the database records.
+i want you to read my reminder list to me,reminder,service,Reminders and tasks can be logged to your session memory.
+will it get over 90 degrees today,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+please switch $s checking to mortage,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+what does ferrari mean,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+how is it possible that my account has been frozen,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+"tell me the time in san francisco, please",time,service,You can check current conversation timestamps on every message bubble.
+what is tomorrow's date,date,service,Today's date is managed through the system clock and conversation logs.
+what time is it in buenos aires,time,service,You can check current conversation timestamps on every message bubble.
+how is it outside,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+what is 89 divided by 3,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+how did my bank account get frozen,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+what are the weather conditions in seattle,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+"i ordered some curtains off amazon, can you tell me if it's been shipped yet",order_status,service,Your recent order status is logged in the database records.
+introduce yourself,bot_identity,general,"I am NeuroChat AI, an enterprise-grade AI chatbot system built with Python Flask, React, spaCy, NLTK, and Scikit-learn."
+make 1234 the pin on my savings account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+what is now on my reminder list,reminder,service,Reminders and tasks can be logged to your session memory.
+can you tell the temperature it will tomorrow,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+can you help me with anything i need,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+i'd like to change the pin number on my visa account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+what is the timezone for new york,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+"in the mst time zone, what time is it right now",time,service,You can check current conversation timestamps on every message bubble.
+"in 4 days, what date will it be",date,service,Today's date is managed through the system clock and conversation logs.
+how much are my rent and cable,bill_balance,service,Your current ledger balance is available in your account overview.
+can you tell me my password checking account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+give me the date,date,service,Today's date is managed through the system clock and conversation logs.
+what's the current date,date,service,Today's date is managed through the system clock and conversation logs.
+many thanks,gratitude,general,You are very welcome! Let me know if you need anything else.
+what will be the weather tomorrow,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+what is the weather forecast looking like for seattle,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+tell me the time in california,time,service,You can check current conversation timestamps on every message bubble.
+can i move some money around,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+what time is it now in michigan,time,service,You can check current conversation timestamps on every message bubble.
+how does support vector classifier work,ml_svm,ml,Support Vector Machine (SVM) finds the optimal hyperplane that maximizes the margin of separation between distinct classes in high-dimensional feature space.
+define nlp,nlp_definition,nlp,"Natural Language Processing (NLP) is a subfield of AI focused on enabling computers to understand, interpret, and generate human language using statistical, ML, and deep learning techniques."
+let me know what today's date is,date,service,Today's date is managed through the system clock and conversation logs.
+tell me what tomorrow's date is,date,service,Today's date is managed through the system clock and conversation logs.
+tell me what the word arboreal means,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+what am i being charged for my water bill,bill_balance,service,Your current ledger balance is available in your account overview.
+explain support vector machines,ml_svm,ml,Support Vector Machine (SVM) finds the optimal hyperplane that maximizes the margin of separation between distinct classes in high-dimensional feature space.
+what is term frequency inverse document frequency,nlp_tfidf,nlp,TF-IDF (Term Frequency - Inverse Document Frequency) measures how important a word is to a document relative to a corpus by weighting high frequency in a document against its frequency across all documents.
+have my goods been delivered yet,order_status,service,Your recent order status is logged in the database records.
+what's the definition of unencumbered,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+"could you tell me what 30% off 235 is, please",calculator,service,I can evaluate mathematical expressions and machine learning equations.
+has my purchase been delivered yet,order_status,service,Your recent order status is logged in the database records.
+whats my name saved under,user_name,service,I can identify your user profile from your secure session.
+when was my most recent transaction,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+what chatbot is this,bot_identity,general,"I am NeuroChat AI, an enterprise-grade AI chatbot system built with Python Flask, React, spaCy, NLTK, and Scikit-learn."
+i don't remember the pin number to my card,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+what would cause my bank account to be frozen,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+what time is it in new york,time,service,You can check current conversation timestamps on every message bubble.
+"in 2 days, what date will it be",date,service,Today's date is managed through the system clock and conversation logs.
+go through my reminder list with me please,reminder,service,Reminders and tasks can be logged to your session memory.
+i placed an order and i need it tracked,order_status,service,Your recent order status is logged in the database records.
+what can you answer for me,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+can i initiate a one-time transfer from my savings account to my money market account,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+how much does my water and electricity cost,bill_balance,service,Your current ledger balance is available in your account overview.
+i need to know last months transactions,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+what year is it,date,service,Today's date is managed through the system clock and conversation logs.
+what subjects are you experienced in,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+define antebellum,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+could you let me know what names you have for me,user_name,service,I can identify your user profile from your secure session.
+how can i unfreeze my bank account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+make a transfer of $200 from my savings account to my checking account,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+what is the record high temperature for today,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+what things did i not want to forget,reminder,service,Reminders and tasks can be logged to your session memory.
+can i see my transactions on the 7th,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+can you please provide me with assistance in moving money from one account to another,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+what kinds of questions can you respond to,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+i need to make a transfer of my money,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+what do you refer to me as,user_name,service,I can identify your user profile from your secure session.
+i need you to send 500 dollars from my high tier account to my regular checking account,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+what does adulation mean,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+help me with math,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+tell me what subjects you like,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+how much do i have to pay on my amazon card this month,bill_balance,service,Your current ledger balance is available in your account overview.
+what is the square root of 10500,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+what is the meaning of interorganizational,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+please tell me the time,time,service,You can check current conversation timestamps on every message bubble.
+is my meeting with frank on my list of reminders,reminder,service,Reminders and tasks can be logged to your session memory.
+helpful,gratitude,general,You are very welcome! Let me know if you need anything else.
+how much on bills to i have to pay,bill_balance,service,Your current ledger balance is available in your account overview.
+what is the last transaction on my visa card,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+what timezone is los angeles in,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+list my reminders,reminder,service,Reminders and tasks can be logged to your session memory.
+what is the meaning of realism,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+how much do i owe on bills,bill_balance,service,Your current ledger balance is available in your account overview.
+what’s the time in new york,time,service,You can check current conversation timestamps on every message bubble.
+i will be glad to know what type of things you can help me with,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+hi there,greeting,general,"Hi! Welcome to NeuroChat AI. Ask me anything about Machine Learning, NLP, or use our analytics and training tools."
+goodbye,farewell,general,Goodbye! Have a productive day ahead. Feel free to return if you have more questions.
+i need to know tomorrow's date,date,service,Today's date is managed through the system clock and conversation logs.
+help me transfer $100 from my checking to saving account,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+i need to track a package,order_status,service,Your recent order status is logged in the database records.
+i need to know the name that you have for me,user_name,service,I can identify your user profile from your secure session.
+define epicurean,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+what is the timezone for paris,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+what is support vector machine,ml_svm,ml,Support Vector Machine (SVM) finds the optimal hyperplane that maximizes the margin of separation between distinct classes in high-dimensional feature space.
+"transfer seventeen dollars from rbs to woodforest account, please",transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+what time is it in france,time,service,You can check current conversation timestamps on every message bubble.
+tell me the forecast,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+what is tf-idf and how does it work,nlp_tfidf,nlp,TF-IDF (Term Frequency - Inverse Document Frequency) measures how important a word is to a document relative to a corpus by weighting high frequency in a document against its frequency across all documents.
+what is the solution to sixty times thirty,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+can you tell me the low tonight,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+swap my amex pin to 1234,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+would you let me know what date it will be in 3 days,date,service,Today's date is managed through the system clock and conversation logs.
+what is 1000 plus 745,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+add 45 to 87 plus 54 plus 43 plus 22,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+i want you to send ten dollars from bank of america to capital one,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+what time is it in russia,time,service,You can check current conversation timestamps on every message bubble.
+explain cross validation in machine learning,ml_cross_validation,ml,"K-Fold Cross-Validation partitions data into K subsets, iteratively training on K-1 folds and validating on the remaining fold to assess model generalization without data leakage."
+define named entity recognition,nlp_ner,nlp,"Named Entity Recognition (NER) identifies and categorizes key entities in text into predefined classes such as person names, organizations, locations, dates, and quantities."
+i need to track the status of my order,order_status,service,Your recent order status is logged in the database records.
+what reminders do i have,reminder,service,Reminders and tasks can be logged to your session memory.
+please let me know how much my bills for comcast and sprint total,bill_balance,service,Your current ledger balance is available in your account overview.
+what things do you know how to do,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+why isn't it letting me into my bank account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+what timezone is london is,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+is my order here,order_status,service,Your recent order status is logged in the database records.
+please tell me all the transactions i've made recently,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+what's on the reminder list,reminder,service,Reminders and tasks can be logged to your session memory.
+can you tell me what a septuagenarian is,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+how much will my monthly bill be,bill_balance,service,Your current ledger balance is available in your account overview.
+can you answer all types of questions,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+which subjects can you tell me about,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+"for my water and electricity, how much is the bill",bill_balance,service,Your current ledger balance is available in your account overview.
+can you find out how much i owe on my bills,bill_balance,service,Your current ledger balance is available in your account overview.
+what timezone is honolulu in,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+hello,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+tell time for another city: dallas,time,service,You can check current conversation timestamps on every message bubble.
+i cannot recall the pin for my savings account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+are they any updates on my order,order_status,service,Your recent order status is logged in the database records.
+what is the meaning of word alliance,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+can you monitor my package's progress,order_status,service,Your recent order status is logged in the database records.
+locate my package,order_status,service,Your recent order status is logged in the database records.
+can you divide 100 by 20,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+what is 5 x 4,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+what's 47 times 83,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+can i know what type of things you can help me with,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+subtract 100 from 12,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+could you tell me the amount owed on gas and electric,bill_balance,service,Your current ledger balance is available in your account overview.
+i'd like to know if my account's blocked and the reason if so,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+help me unblock my account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+modify my account pin to 1234 on my checking account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+let me check my transaction on my citi card,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+"check status on my deliver, has it been delivered",order_status,service,Your recent order status is logged in the database records.
+move 100 dollars from my savings to my checking,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+multiply 7 and 42,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+how much have i spent on my bank card sine i last paid my bill,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+show me all transactions for current statement,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+what types of questions do you have a response for,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+what is happening with the weather in austin,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+"what is 25% of $54,788",calculator,service,I can evaluate mathematical expressions and machine learning equations.
+was my order dropped off,order_status,service,Your recent order status is logged in the database records.
+explain false positive and false negative,ml_confusion_matrix,ml,"A Confusion Matrix is a performance table comparing actual ground truth labels against model predictions across True Positives, True Negatives, False Positives, and False Negatives."
+deposit ten bucks from my chase account to my ally account,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+what questions can you answer,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+i want to hear my reminder list,reminder,service,Reminders and tasks can be logged to your session memory.
+is my package able to be tracked by you,order_status,service,Your recent order status is logged in the database records.
+what's the humidity today,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+can you tell me the square root of pi,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+explain word embeddings,nlp_embeddings,nlp,Word embeddings map discrete words into continuous dense vector spaces where semantically similar words have close geometric proximity based on distributional context.
+how do word embeddings like word2vec work,nlp_embeddings,nlp,Word embeddings map discrete words into continuous dense vector spaces where semantically similar words have close geometric proximity based on distributional context.
+"""which things are wanted to remember",reminder,service,Reminders and tasks can be logged to your session memory.
+please help me to know what type of things you can help me with,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+what is 400 times 2,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+"my account is blocked, help me figure out why",account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+what kind of information do you know,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+i want to know what trenchant means,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+what is a neural network,dl_neural_network,deep_learning,"An Artificial Neural Network is a computational architecture inspired by biological neural circuits, composed of layers of interconnected nodes (neurons) that learn non-linear representations via forward propagation and backpropagation."
+what is the current time in new york,time,service,You can check current conversation timestamps on every message bubble.
+what will the date be in 64 days,date,service,Today's date is managed through the system clock and conversation logs.
+refresh my memory about what items i want to remember,reminder,service,Reminders and tasks can be logged to your session memory.
+how much do my bills cost this month,bill_balance,service,Your current ledger balance is available in your account overview.
+what time is my package getting here,order_status,service,Your recent order status is logged in the database records.
+"what time is it in adelaide, australia right now",time,service,You can check current conversation timestamps on every message bubble.
+what's the time in tokyo,time,service,You can check current conversation timestamps on every message bubble.
+add twelve and twelve please,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+how do you usually refer to me,user_name,service,I can identify your user profile from your secure session.
+what is 1785 minus 334 minus 87 plus 374 minus 400 plus 17,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+great western bank's login screen tells me i'm locked out but not why,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+what's today's high and low,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+subtract 85 from 997,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+tokenization meaning,nlp_tokenization,nlp,"Tokenization is the process of breaking down raw text into smaller semantic units called tokens, such as words, subwords, or punctuation."
+what are the things that i wanted to keep in mind,reminder,service,Reminders and tasks can be logged to your session memory.
+where is my package en route,order_status,service,Your recent order status is logged in the database records.
+what is the balance on my bills,bill_balance,service,Your current ledger balance is available in your account overview.
+"track package, please",order_status,service,Your recent order status is logged in the database records.
+what is my name saved as in your system,user_name,service,I can identify your user profile from your secure session.
+why is there a hold on my discover account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+say my name in a sentence,user_name,service,I can identify your user profile from your secure session.
+what exactly can you help me with,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+what is the time in paris now,time,service,You can check current conversation timestamps on every message bubble.
+what is the time right now in the hst timezone,time,service,You can check current conversation timestamps on every message bubble.
+whats the timezone for san fransico,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+what's the definition of luminescent,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+can you tell me the definition of yttrbium,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+what timezone is hanoi in,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+is today monday,date,service,Today's date is managed through the system clock and conversation logs.
+i want seventy bucks transferred from b of a to chase,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+my account appears to be blocked but i have no idea why that could be,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+will you repeat my reminder list,reminder,service,Reminders and tasks can be logged to your session memory.
+what time is it in london,time,service,You can check current conversation timestamps on every message bubble.
+can you tell me what is 18 percent of $2500,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+tell me what time it is,time,service,You can check current conversation timestamps on every message bubble.
+what day of the month is it today,date,service,Today's date is managed through the system clock and conversation logs.
+i'd like to change my pin number for my savings account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+what's my mortgage payment going to be this month,bill_balance,service,Your current ledger balance is available in your account overview.
+"i think i owe about 100 left on my bills, am i forgetting anything",bill_balance,service,Your current ledger balance is available in your account overview.
+greetings,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+hello bot,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+what is the reason i am locked out of my bank account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+how soon will me package arrive,order_status,service,Your recent order status is logged in the database records.
+what is intercontinental mean,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+i need meteorological data for tallahassee,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+do you have a name for me,user_name,service,I can identify your user profile from your secure session.
+i am unable to remember what my pin is for my bank of america checking account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+please give me the pin number for my checking account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+what are your capabilities,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+"can you read my reminder list, please",reminder,service,Reminders and tasks can be logged to your session memory.
+tell me where my package is currently,order_status,service,Your recent order status is logged in the database records.
+what would you be able to do with me,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+timezone in salt lake city,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+what's the definition of idiosyncratic,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+namaste,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+transfer ten dollars from my wells fargo account to my bank of america account,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+is the packaged delivered already,order_status,service,Your recent order status is logged in the database records.
+how is my name saved aw,user_name,service,I can identify your user profile from your secure session.
+what does my cable bill look like,bill_balance,service,Your current ledger balance is available in your account overview.
+so tell me the pin number,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+tell me about yourself,bot_identity,general,"I am NeuroChat AI, an enterprise-grade AI chatbot system built with Python Flask, React, spaCy, NLTK, and Scikit-learn."
+what kinds of questions can i ask you,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+tell me what time it is in the central timezone,time,service,You can check current conversation timestamps on every message bubble.
+what is stupedous meant,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+french time zone,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+what transactions have i made in the last few weeks,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+"help me please, my account is blocked",account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+can you read my list back to me,reminder,service,Reminders and tasks can be logged to your session memory.
+farewell,farewell,general,Goodbye! Have a productive day ahead. Feel free to return if you have more questions.
+change the pin on my chase account to be 1234,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+can you factor x squared plus 4 x plus 4,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+what is the time right now in the peruvian time zone,time,service,You can check current conversation timestamps on every message bubble.
+what do i owe on telephone and cable bill,bill_balance,service,Your current ledger balance is available in your account overview.
+do i still owe any bills,bill_balance,service,Your current ledger balance is available in your account overview.
+what can you do,bot_capabilities,general,"I can classify intents using trained ML models (Naive Bayes, SVM, Logistic Regression), extract NLP entities, track chat history, analyze datasets, and fallback to generative AI (Groq Qwen/Llama) for open-ended queries."
+tell me the date it will be 5 days from now,date,service,Today's date is managed through the system clock and conversation logs.
+please help with my math,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+"hey, i just put in my order and i was wondering what the status of it",order_status,service,Your recent order status is logged in the database records.
+would you please tell me today's date,date,service,Today's date is managed through the system clock and conversation logs.
+show me my transactions on make up at sephora,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+what is the timezone for houston,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+make 1234 a new pin for my savings account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+tell me how to retrieve my pin number,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+can you tell me what dendrofilous means,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+what do you think my name is,user_name,service,I can identify your user profile from your secure session.
+give me my reminders,reminder,service,Reminders and tasks can be logged to your session memory.
+transfer fifty dollars between my chase and bank of america account,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+what's my name,user_name,service,I can identify your user profile from your secure session.
+i want to change the pin number on my credit union account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+how much do i have to pay for my bills this month,bill_balance,service,Your current ledger balance is available in your account overview.
+morning,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+what were my purchases on visa card last month,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+how much is my kill bill bill for,bill_balance,service,Your current ledger balance is available in your account overview.
+exit,farewell,general,Goodbye! Have a productive day ahead. Feel free to return if you have more questions.
+what's the weather like right now,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+why did you freeze my bank account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+remind me of the items on my list of things to remember,reminder,service,Reminders and tasks can be logged to your session memory.
+find square root of 453,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+i'm struggling to remind myself the pin number to my card,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+show me my recent transactions from account xyz,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+i need to know what is 85% of $1500,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+i need to know the price of my car payment and insurance please,bill_balance,service,Your current ledger balance is available in your account overview.
+tell me what date it is please,date,service,Today's date is managed through the system clock and conversation logs.
+do you know london's timezone,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+can you tell me the time zone for la,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+set up a new pin number on my college fund account and make it be 1234,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+is joey my name,user_name,service,I can identify your user profile from your secure session.
+what date will it be 6 days from now,date,service,Today's date is managed through the system clock and conversation logs.
+i want the pin on my wells fargo account to be changed,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+what is confusion matrix,ml_confusion_matrix,ml,"A Confusion Matrix is a performance table comparing actual ground truth labels against model predictions across True Positives, True Negatives, False Positives, and False Negatives."
+what is 543 times 344,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+what time of day is it in london,time,service,You can check current conversation timestamps on every message bubble.
+what is 20 times 20 times 30,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+hi friend,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+i need to know all my spending transactions,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+what name do you know me by,user_name,service,I can identify your user profile from your secure session.
+take out of my checking 400 dollars and put it into my emergency savings account,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+you know me by what right now,user_name,service,I can identify your user profile from your secure session.
+what is overfitting and how to prevent it,ml_overfitting,ml,"Overfitting occurs when a model learns noise and specific details of training data rather than general patterns. It is prevented using regularization (L1/L2), cross-validation, dropout, data augmentation, and pruning."
+my list of reminders is what,reminder,service,Reminders and tasks can be logged to your session memory.
+difference between stemming and lemmatization,nlp_lemmatization,nlp,"Stemming applies heuristic rules to chop off word affixes (often producing non-words), whereas lemmatization uses vocabulary and morphological analysis to return valid dictionary root words (lemmas)."
+when is my order coming,order_status,service,Your recent order status is logged in the database records.
+can i make a transfer between my accounts,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+what's the current weather,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+hello there,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+what does saffron mean,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+look up the time in california,time,service,You can check current conversation timestamps on every message bubble.
+i need to know the pin number,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+what day are we in,date,service,Today's date is managed through the system clock and conversation logs.
+what's the date 400 days from now,date,service,Today's date is managed through the system clock and conversation logs.
+what is the time now,time,service,You can check current conversation timestamps on every message bubble.
+what is 10 + 20,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+what type of questions are you partial to that i can ask you,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+make an immediate transfer of ten thousand from money market to checking,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+can you tell me what i owe for this month's phone bill,bill_balance,service,Your current ledger balance is available in your account overview.
+alter the pin on my savings account to be 1234,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+"is ""rescind"" a word of positive connotation",definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+help me move my money please,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+"what is the average of 54, 23, 43, 12, and 442",calculator,service,I can evaluate mathematical expressions and machine learning equations.
+please track my order,order_status,service,Your recent order status is logged in the database records.
+what's your designation,user_name,service,I can identify your user profile from your secure session.
+what is the definition of flange,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+what time do you have on your watch,time,service,You can check current conversation timestamps on every message bubble.
+i think my account is blocked,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+tell me my current reminders list,reminder,service,Reminders and tasks can be logged to your session memory.
+hey,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+switch the pin on my visa account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+how is my name saved,user_name,service,I can identify your user profile from your secure session.
+i want to see transactions from this month,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+do you know what the timezone is in reno,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+what am i called by you,user_name,service,I can identify your user profile from your secure session.
+when to use precision vs recall,ml_metrics,ml,"Precision is TP / (TP + FP) (correct positive predictions), Recall is TP / (TP + FN) (actual positives caught), and F1-score is the harmonic mean balancing precision and recall."
+what's up,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+do you know where my package is,order_status,service,Your recent order status is logged in the database records.
+thanks a lot,gratitude,general,You are very welcome! Let me know if you need anything else.
+tell me what the date will be in 5 days,date,service,Today's date is managed through the system clock and conversation logs.
+what's my name saved under,user_name,service,I can identify your user profile from your secure session.
+how does logistic regression classify,ml_logistic_regression,ml,Logistic Regression applies the sigmoid function to a linear combination of input features to predict the probability of a binary categorical outcome.
+what's the meaning of a fortnight,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+how much is 50 plus 756,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+how's the weather,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+can i ask you about anything,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+put one hundred and seventy five bucks in my wells fargo checking account from my citibank savings account,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+what is the meaning of stupendous,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+show me the date,date,service,Today's date is managed through the system clock and conversation logs.
+find out why i can't log in to my bank of america account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+italy's timezone is what,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+my account appears to be blocked and i don't know why,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+could you check to see if my order has been delivered,order_status,service,Your recent order status is logged in the database records.
+"if something is 15% off $35, how much is it",calculator,service,I can evaluate mathematical expressions and machine learning equations.
+i need to know the cost of the cable bill,bill_balance,service,Your current ledger balance is available in your account overview.
+can you please repeat my list back to me,reminder,service,Reminders and tasks can be logged to your session memory.
+please transfer $5000 to money market from checking account,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+how many paypal transactions did i have last week,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+what transactions do i have on my visa from the last 4 weeks,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+please tell me my in-person transactions for the last three days using my debit card,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+what are the things i wanted to recall,reminder,service,Reminders and tasks can be logged to your session memory.
+how do transformer models work,dl_transformers,deep_learning,The Transformer is a deep learning architecture that relies entirely on self-attention mechanisms to model global dependencies between input tokens in parallel without sequential recurrence.
+what caused a hold on my us bank account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+is there a reminder for my aa meeting on my list,reminder,service,Reminders and tasks can be logged to your session memory.
+how much was my last transaction for,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+i'm confused about the reason for my bank account being frozen,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+how hot will it be tomorrow,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+do you have my name programmed,user_name,service,I can identify your user profile from your secure session.
+can you tell me what time it is in dallas,time,service,You can check current conversation timestamps on every message bubble.
+i need help changing my pin,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+what were the things that i wanted to remember,reminder,service,Reminders and tasks can be logged to your session memory.
+i would like to know the name you have for me,user_name,service,I can identify your user profile from your secure session.
+what types of things can i ask the ai,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+transfer four and sixty seven dollars from bank of oklahoma checking to security bank account,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+please give me my last ten debit card transactions in the month of december,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+tell me the weather report for tallahassee,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+walk me through the items on my reminder list,reminder,service,Reminders and tasks can be logged to your session memory.
+can you tell me the date,date,service,Today's date is managed through the system clock and conversation logs.
+what's today's date,date,service,Today's date is managed through the system clock and conversation logs.
+what timezone is dallas in,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+what do you know me as,user_name,service,I can identify your user profile from your secure session.
+what have i spent things on,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+find out what the word abrogate means for me,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+help me find my package,order_status,service,Your recent order status is logged in the database records.
+"current time, please",time,service,You can check current conversation timestamps on every message bubble.
+please tell me my pin number for my synovus account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+can you list all recent transactions,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+please tell me what the date is tomorrow,date,service,Today's date is managed through the system clock and conversation logs.
+how many times does 8 go into 2000,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+thanks buddy,gratitude,general,You are very welcome! Let me know if you need anything else.
+explain tokenization in nlp,nlp_tokenization,nlp,"Tokenization is the process of breaking down raw text into smaller semantic units called tokens, such as words, subwords, or punctuation."
+did someone who is unauthorized try to get into my bank account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+when will i get my order,order_status,service,Your recent order status is logged in the database records.
+i can't remember my pin for my first national debit account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+track my order,order_status,service,Your recent order status is logged in the database records.
+please tell me how much i owe sprint and how much i owe hsn,bill_balance,service,Your current ledger balance is available in your account overview.
+which timezone contains the city of orlando,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+how does backpropagation calculate gradients,dl_backprop,deep_learning,Backpropagation calculates the gradient of the loss function with respect to each model weight using the chain rule of calculus to update weights via gradient descent.
+does the central timezone include austin,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+signing off,farewell,general,Goodbye! Have a productive day ahead. Feel free to return if you have more questions.
+what name is saved for me,user_name,service,I can identify your user profile from your secure session.
+"i would like to change the pin on my savings account, please",pin_change,service,Security PIN changes require authenticated multi-factor verification.
+does my checking account have a pin number,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+let me know what do you call me,user_name,service,I can identify your user profile from your secure session.
+i spent 34 dollars for 12 gallons of paint what is the average price for each gallon,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+can you tell me my name,user_name,service,I can identify your user profile from your secure session.
+explain supervised vs unsupervised,ml_paradigms,ml,"Supervised learning trains models on labeled input-output pairs to predict outcomes, while unsupervised learning discovers inherent patterns, clusters, and structures in unlabeled data."
+what's up with my order,order_status,service,Your recent order status is logged in the database records.
+transfer $500 from my money market savings account to my checking account,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+"could you check if my order has been delivered, please",order_status,service,Your recent order status is logged in the database records.
+need to know the weather now,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+thank you so much,gratitude,general,You are very welcome! Let me know if you need anything else.
+did i set up a reminder to clean the bathroom,reminder,service,Reminders and tasks can be logged to your session memory.
+how much in total do i need to pay cox and at&t,bill_balance,service,Your current ledger balance is available in your account overview.
+i need to know what 25 times 38 is,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+guide me,bot_capabilities,general,"I can classify intents using trained ML models (Naive Bayes, SVM, Logistic Regression), extract NLP entities, track chat history, analyze datasets, and fallback to generative AI (Groq Qwen/Llama) for open-ended queries."
+why is there a stop on my deposit account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+please change my checking account pin to 1234,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+when can i expect my order,order_status,service,Your recent order status is logged in the database records.
+i must change my pin number for my account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+"is there a problem with my account, it appears to be blocked",account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+"can you check to see if my order has been delivered, please",order_status,service,Your recent order status is logged in the database records.
+give me examples of what to ask you,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+time in tokyo,time,service,You can check current conversation timestamps on every message bubble.
+can you confirm my account's blocked and tell me why,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+read my reminder list to me,reminder,service,Reminders and tasks can be logged to your session memory.
+i would like to put 100 dollars from the checking into the savings account now,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+i need to know today's forecast,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+i wanted to remember what again,reminder,service,Reminders and tasks can be logged to your session memory.
+transfer seventy dollars between national and citizens accounts,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+i need to reset my pin number,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+is it hot outside,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+"help, my account is blocked",account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+what's it doing outside right now,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+do you have any idea why my account may be blocked,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+can you tell me britain's timezone,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+how does the weather feel,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+what is the day now,date,service,Today's date is managed through the system clock and conversation logs.
+tell me my water bill please,bill_balance,service,Your current ledger balance is available in your account overview.
+you refer to me as what,user_name,service,I can identify your user profile from your secure session.
+what's going on with my order,order_status,service,Your recent order status is logged in the database records.
+what is the definition of altruism,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+what is my name saved under,user_name,service,I can identify your user profile from your secure session.
+find what the word diaphanous mean please,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+who created neurochat,bot_identity,general,"I am NeuroChat AI, an enterprise-grade AI chatbot system built with Python Flask, React, spaCy, NLTK, and Scikit-learn."
+what does deceive mean,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+halo,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+what will the low temperatures be over the weekend,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+i am confused because my account seems to have been blocked for no reason,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+what is the month and day tomorrow,date,service,Today's date is managed through the system clock and conversation logs.
+you call me what,user_name,service,I can identify your user profile from your secure session.
+what is the sum of 3 plus 5,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+what name do you use to talk about me,user_name,service,I can identify your user profile from your secure session.
+can you tell me when my item will get here,order_status,service,Your recent order status is logged in the database records.
+i would like information on france's timezone,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+please tell me all the purchases on my hy-vee card for this statement period,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+"ai, tell me what things i should ask of you",what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+what do i owe to jcp,bill_balance,service,Your current ledger balance is available in your account overview.
+what does serendipity mean,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+what will the date be 100 days from now,date,service,Today's date is managed through the system clock and conversation logs.
+what's my name on file,user_name,service,I can identify your user profile from your secure session.
+what does discretionary mean,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+is the timezone there different,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+tell me what my name is,user_name,service,I can identify your user profile from your secure session.
+you saved my name how,user_name,service,I can identify your user profile from your secure session.
+bring up my most recent purchases,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+i need to know the weather,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+what exactly is my pin,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+please tell me how do i change the account pin number,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+take $40 and transfer it to account a from b,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+what do you have for my name,user_name,service,I can identify your user profile from your secure session.
+how much is my electric bill for,bill_balance,service,Your current ledger balance is available in your account overview.
+please tell me what subjects you like,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+i need to know britain's timezone,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+transfer 100 dollars checking to savings,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+read what i added to the reminder list,reminder,service,Reminders and tasks can be logged to your session memory.
+show me my ten most recent transactions on account xyz,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+when will my package arrive,order_status,service,Your recent order status is logged in the database records.
+which timezone is france in,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+look up the status of the order i placed online,order_status,service,Your recent order status is logged in the database records.
+whats the definition of transmute,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+i need information about my recent transaction,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+the current time,time,service,You can check current conversation timestamps on every message bubble.
+how does cross validation work,ml_cross_validation,ml,"K-Fold Cross-Validation partitions data into K subsets, iteratively training on K-1 folds and validating on the remaining fold to assess model generalization without data leakage."
+what is the total of my repair bill,bill_balance,service,Your current ledger balance is available in your account overview.
+"what time is it in houston, tx",time,service,You can check current conversation timestamps on every message bubble.
+is there anything i can't ask you,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+what time is it in dallas,time,service,You can check current conversation timestamps on every message bubble.
+why am i locked out of my bank account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+tell me my reminders,reminder,service,Reminders and tasks can be logged to your session memory.
+what time is it in the greenwich timezone,time,service,You can check current conversation timestamps on every message bubble.
+how is the weather in miami,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+i need to know what dominate means,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+is the phone bill the same as last month,bill_balance,service,Your current ledger balance is available in your account overview.
+what's the weather like today,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+how do you show my name,user_name,service,I can identify your user profile from your secure session.
+i would like to change the name on my capital one account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+what does circuitous mean,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+i need to transfer ten dollars from my bank of america account to my capital one account,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+costa mesa current weather,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+what is the meaning of fascism,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+stemming and lemmatization differences,nlp_lemmatization,nlp,"Stemming applies heuristic rules to chop off word affixes (often producing non-words), whereas lemmatization uses vocabulary and morphological analysis to return valid dictionary root words (lemmas)."
+what timezone do ho chi minh use,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+please tell me what date it is today,date,service,Today's date is managed through the system clock and conversation logs.
+affiliate's definition is what,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+can you explain why there is a hold on my savings account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+how late is it now in ourense,time,service,You can check current conversation timestamps on every message bubble.
+what are the items on my reminder list,reminder,service,Reminders and tasks can be logged to your session memory.
+i'd like to know what the date is,date,service,Today's date is managed through the system clock and conversation logs.
+show me all video games purchased,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+what timezone is london in,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+repeat what the weather will be like,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+i need to know something about my latest transaction,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+change the pin on my capital one account to be 1234,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+how much is the car bill this month,bill_balance,service,Your current ledger balance is available in your account overview.
+what does 2 + 2 equal,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+i need my pin number for my bank of america account and i can't remember it,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+tell me what types of questions i can ask you,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+yo,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+what time is it in california,time,service,You can check current conversation timestamps on every message bubble.
+what's the day of the week,date,service,Today's date is managed through the system clock and conversation logs.
+can you transfer money from my account,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+how much do i have to pay for my shell gas card bill,bill_balance,service,Your current ledger balance is available in your account overview.
+can you tell me why is my bank account frozen,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+what hour and minute is it,time,service,You can check current conversation timestamps on every message bubble.
+i cannot remember what my pin is for my bank of america checking account this moment,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+give me today's date,date,service,Today's date is managed through the system clock and conversation logs.
+please search for portland's timezone,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+tell me the date 5 days from now,date,service,Today's date is managed through the system clock and conversation logs.
+what is the process to move money from one account to another,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+please look to see if paying bills is on my reminders list currently,reminder,service,Reminders and tasks can be logged to your session memory.
+please transfer $100 from my checking to my savings account,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+please define institutional racism,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+how does logistic regression work,ml_logistic_regression,ml,Logistic Regression applies the sigmoid function to a linear combination of input features to predict the probability of a binary categorical outcome.
+transfer 50 dollars from my checking account to my money market account,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+what is the current time in cst,time,service,You can check current conversation timestamps on every message bubble.
+what do you want to call me,user_name,service,I can identify your user profile from your secure session.
+what's on my reminder list today,reminder,service,Reminders and tasks can be logged to your session memory.
+why don't i have access to my bank account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+please tell me the reason for the hold on my bb&t account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+change the pin on my bofa account to 3892,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+read my reminders to me,reminder,service,Reminders and tasks can be logged to your session memory.
+i need to change my pin number for my checking account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+what is the weather doing now,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+is it six o clock yet,time,service,You can check current conversation timestamps on every message bubble.
+define ataraxy,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+i would like to change the name on my first hawaiian bank account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+what would the date be 5 days from today,date,service,Today's date is managed through the system clock and conversation logs.
+what questions are permissible,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+what timezone would missouri be in,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+what would tomorrow's date be,date,service,Today's date is managed through the system clock and conversation logs.
+how is the weather in austin,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+i want to update my pin number on my bank of america account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+what is the difference between supervised and unsupervised learning,ml_paradigms,ml,"Supervised learning trains models on labeled input-output pairs to predict outcomes, while unsupervised learning discovers inherent patterns, clusters, and structures in unlabeled data."
+hi,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+what reason could the bank have had for blocking my account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+i need you to change the pin on my bank of america account to be 1234,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+change the pin on my bank account first republic to 1234,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+what are word vectors,nlp_embeddings,nlp,Word embeddings map discrete words into continuous dense vector spaces where semantically similar words have close geometric proximity based on distributional context.
+what's the chance of rain,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+transer $800 from my checking to savings account,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+tell me the pin number to my card,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+what's the date today,date,service,Today's date is managed through the system clock and conversation logs.
+can you explain nlp,nlp_definition,nlp,"Natural Language Processing (NLP) is a subfield of AI focused on enabling computers to understand, interpret, and generate human language using statistical, ML, and deep learning techniques."
+could you tell me my name,user_name,service,I can identify your user profile from your secure session.
+what's my name in your system,user_name,service,I can identify your user profile from your secure session.
+put $40 from account a to b,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+could you tell me what timezone reno is in,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+tell me the time in las vegas,time,service,You can check current conversation timestamps on every message bubble.
+do you know what things i wanted to remember,reminder,service,Reminders and tasks can be logged to your session memory.
+tell me how much my verizon and comcast bill come to together,bill_balance,service,Your current ledger balance is available in your account overview.
+please read all the items on my reminder list,reminder,service,Reminders and tasks can be logged to your session memory.
+on my card what all are my latest transactions,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+could you please track my package,order_status,service,Your recent order status is logged in the database records.
+can you help me find my package,order_status,service,Your recent order status is logged in the database records.
+what sorts of things can i ask you about,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+what is 60 percent off of 350 dollars,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+i'm afraid i've forgotten the pin for my 401k account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+what is the high temperature for tomorrow,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+check for why is my bank account frozen,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+i need to know today's date please,date,service,Today's date is managed through the system clock and conversation logs.
+why is my bank account locked,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+"i'd like to change the pin on my savings account, please",pin_change,service,Security PIN changes require authenticated multi-factor verification.
+send 400 dollars between city bank and usaa accounts,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+how much do i have to pay on taxes and cable,bill_balance,service,Your current ledger balance is available in your account overview.
+show me the last five transactions,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+my name,user_name,service,I can identify your user profile from your secure session.
+what time is it in the central standard timezone,time,service,You can check current conversation timestamps on every message bubble.
+define antagonist for me please,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+"denver's timezone is a mystery, i wonder where its located",timezone,service,The server system runs on standard UTC time and adapts to your client time.
+give weather update now,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+what's the timezone in valencia,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+what do i have on my list of reminders,reminder,service,Reminders and tasks can be logged to your session memory.
+weather forecast please,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+can you help me figure out my pin number for my visa account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+was my order delivered,order_status,service,Your recent order status is logged in the database records.
+what is the cost of my rent and water bills,bill_balance,service,Your current ledger balance is available in your account overview.
+how much is my xfinity cable bill,bill_balance,service,Your current ledger balance is available in your account overview.
+what should i ask you about,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+move $40 from account b to account a,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+what is 7 x 7,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+how much snow will we be getting tomorrow,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+let me know what tomorrow's date is,date,service,Today's date is managed through the system clock and conversation logs.
+what is 562 times 400,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+"what is the time, please",time,service,You can check current conversation timestamps on every message bubble.
+what are you called,bot_identity,general,"I am NeuroChat AI, an enterprise-grade AI chatbot system built with Python Flask, React, spaCy, NLTK, and Scikit-learn."
+what will i be paying for utilities this month,bill_balance,service,Your current ledger balance is available in your account overview.
+what kind of questions can i ask the ai,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+"i ordered for delivery, has is arrived yet",order_status,service,Your recent order status is logged in the database records.
+what is the meaning of incandescent,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+what does assiduous mean,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+i cannot remember what my pin is for my bank of america checking account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+can i move some money between my two accounts,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+remind me of the invoice total for my plumbing bill,bill_balance,service,Your current ledger balance is available in your account overview.
+"i heard some woman say she was going to yerd me, what's that mean",definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+it seems that my account is blocked and i'm not sure why,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+i need to move money from one account to another,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+what timezone is new york in,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+what stuff am i trying to remember,reminder,service,Reminders and tasks can be logged to your session memory.
+please share today's date,date,service,Today's date is managed through the system clock and conversation logs.
+what is today's date,date,service,Today's date is managed through the system clock and conversation logs.
+"what time is it in fredericksburg, tx",time,service,You can check current conversation timestamps on every message bubble.
+i'm having trouble remembering the pin number to my card,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+what's the definition of remunerative,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+can you check the balance on the water bill,bill_balance,service,Your current ledger balance is available in your account overview.
+what timezone is lima in,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+which day is it now,date,service,Today's date is managed through the system clock and conversation logs.
+tell me my name,user_name,service,I can identify your user profile from your secure session.
+transfer $10 from checking to savings,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+what is 900 times 8,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+see you later,farewell,general,Goodbye! Have a productive day ahead. Feel free to return if you have more questions.
+how does word2vec represent words,nlp_embeddings,nlp,Word embeddings map discrete words into continuous dense vector spaces where semantically similar words have close geometric proximity based on distributional context.
+what is the square root of 95,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+would you tell me what names you have for me,user_name,service,I can identify your user profile from your secure session.
+could you tell me what the weather is in austin,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+what is 13 times 57,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+show what i have spent things on,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+what kinds of things are you familiar with,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+what is 80980 + 098098 + 80980 + 1243,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+what is the amount i owe to clay electric,bill_balance,service,Your current ledger balance is available in your account overview.
+i need you to tell me what time it is in new york now,time,service,You can check current conversation timestamps on every message bubble.
+what was my recent transaction,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+what is 8 factorial,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+do you know who i am,user_name,service,I can identify your user profile from your secure session.
+what is the weather in atlanta,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+please tell me the name you use for me,user_name,service,I can identify your user profile from your secure session.
+tell me about natural language processing,nlp_definition,nlp,"Natural Language Processing (NLP) is a subfield of AI focused on enabling computers to understand, interpret, and generate human language using statistical, ML, and deep learning techniques."
+why is there a hold on my american saving bank account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+what was the temperature yesterday,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+read all my reminders,reminder,service,Reminders and tasks can be logged to your session memory.
+list capabilities,bot_capabilities,general,"I can classify intents using trained ML models (Naive Bayes, SVM, Logistic Regression), extract NLP entities, track chat history, analyze datasets, and fallback to generative AI (Groq Qwen/Llama) for open-ended queries."
+send 50 dollars between bank of america and chase accounts,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+can i talk to someone about why there is a hold on my checking account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+what is the current time right now in hollywood,time,service,You can check current conversation timestamps on every message bubble.
+what is the kernel trick in svm,ml_svm,ml,Support Vector Machine (SVM) finds the optimal hyperplane that maximizes the margin of separation between distinct classes in high-dimensional feature space.
+what is the derivative of x squared plus 5,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+what is the weather in tokyo,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+what do i owe this month on all my bills,bill_balance,service,Your current ledger balance is available in your account overview.
+why is there a block on my account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+what is the weather going to be like,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+what day will it be in fourteen days,date,service,Today's date is managed through the system clock and conversation logs.
+what could cause a hold on my savings account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+i would like to transfer $5 from savings to checking,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+explain breaking sentences into words,nlp_tokenization,nlp,"Tokenization is the process of breaking down raw text into smaller semantic units called tokens, such as words, subwords, or punctuation."
+whats my recent transactions on my card,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+can you reset my pin number,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+transfer $500 from my checking to my savings,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+what is the time zone of china,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+is it going to rain today,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+what name do you use when addressing me,user_name,service,I can identify your user profile from your secure session.
+i want to hear my name,user_name,service,I can identify your user profile from your secure session.
+is there a way to get my pin number,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+is new york in mountain timezone,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+what reminders did i have,reminder,service,Reminders and tasks can be logged to your session memory.
+definition of affiliate is what,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+what is the amount i owe on my phone,bill_balance,service,Your current ledger balance is available in your account overview.
+time in manhattan,time,service,You can check current conversation timestamps on every message bubble.
+where is my delivery order,order_status,service,Your recent order status is logged in the database records.
+how do i change my pin for number for my abc bank account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+why use lemmatization,nlp_lemmatization,nlp,"Stemming applies heuristic rules to chop off word affixes (often producing non-words), whereas lemmatization uses vocabulary and morphological analysis to return valid dictionary root words (lemmas)."
+"what's the date tomorrow, please",date,service,Today's date is managed through the system clock and conversation logs.
+how to use this app,bot_capabilities,general,"I can classify intents using trained ML models (Naive Bayes, SVM, Logistic Regression), extract NLP entities, track chat history, analyze datasets, and fallback to generative AI (Groq Qwen/Llama) for open-ended queries."
+what is 1100 minus 2347,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+send 100 dollars from checking to savings,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+i would like to know the types of subjects are you familiar with,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+let me check my transaction for first bank card,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+how much is my water bill for,bill_balance,service,Your current ledger balance is available in your account overview.
+what's the balance on my bills,bill_balance,service,Your current ledger balance is available in your account overview.
+i need to know today's date,date,service,Today's date is managed through the system clock and conversation logs.
+what was my recent transaction on my visa card,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+what can you do for me,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+what is the status of my purchase,order_status,service,Your recent order status is logged in the database records.
+what's the date,date,service,Today's date is managed through the system clock and conversation logs.
+"i ordered some new speakers, so when will they get here",order_status,service,Your recent order status is logged in the database records.
+show my transaction statement,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+tell my all my reminders,reminder,service,Reminders and tasks can be logged to your session memory.
+what is the exact time,time,service,You can check current conversation timestamps on every message bubble.
+tell me today's date,date,service,Today's date is managed through the system clock and conversation logs.
+i need to know what kind of things you can help with,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+what is 10 to the 12th power,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+what is break a leg mean,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+are you able to call me by my name,user_name,service,I can identify your user profile from your secure session.
+what's london's timezone,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+what time is it in the mountain timezone,time,service,You can check current conversation timestamps on every message bubble.
+tell me the pin number for my checking account,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+what were my last 10 charges on my credit card,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+what is the state of the weather in seattle,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+tell me the date,date,service,Today's date is managed through the system clock and conversation logs.
+i wanna change my pin number for my credit acount,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+what is the current date,date,service,Today's date is managed through the system clock and conversation logs.
+how much did i spend on my most recent transaction,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+i need to know what the date is today,date,service,Today's date is managed through the system clock and conversation logs.
+what subjects do you know,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+what's tomorrow's date,date,service,Today's date is managed through the system clock and conversation logs.
+"there's a hold on my chase account, but why",account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+why can't i access my bank account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+what timezone is detroit in,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+does denver reside in the eastern timezones,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+how much is my cable bill for,bill_balance,service,Your current ledger balance is available in your account overview.
+tell me what 1875 plus 3459 equals,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+what is named entity recognition,nlp_ner,nlp,"Named Entity Recognition (NER) identifies and categorizes key entities in text into predefined classes such as person names, organizations, locations, dates, and quantities."
+what do you know me by,user_name,service,I can identify your user profile from your secure session.
+what kind of things can you help with,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+"tomorrow, what will the date be",date,service,Today's date is managed through the system clock and conversation logs.
+what kind of weather can i expect now,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+please transfer 100 dollars between my amazon payments and savings accounts,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+what's the current timezone in barcelona,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+i need to know the date it will be 4 days from now,date,service,Today's date is managed through the system clock and conversation logs.
+what does distinguish mean,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+what's the name you use for me,user_name,service,I can identify your user profile from your secure session.
+would you let me know today's date,date,service,Today's date is managed through the system clock and conversation logs.
+order status,order_status,service,Your recent order status is logged in the database records.
+can you show me the transactions that were made last night at the restaurant,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+how do i fix overfitting in my model,ml_overfitting,ml,"Overfitting occurs when a model learns noise and specific details of training data rather than general patterns. It is prevented using regularization (L1/L2), cross-validation, dropout, data augmentation, and pruning."
+what's the current time in greenwhich,time,service,You can check current conversation timestamps on every message bubble.
+how much is due for my water bill,bill_balance,service,Your current ledger balance is available in your account overview.
+can you tell me the current time in jamaica,time,service,You can check current conversation timestamps on every message bubble.
+the timezone of italy is what,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+which timezone is england in,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+las vegas weather today,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+how's my amazon order doing,order_status,service,Your recent order status is logged in the database records.
+i do not recall the pin number to my card,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+what is 4 x 4,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+you have what name for me,user_name,service,I can identify your user profile from your secure session.
+can you tell me the subjects you know best,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+what did i spend at target on my barclays card last month,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+what can i ask you,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+i ordered new light bulbs online when will they get here,order_status,service,Your recent order status is logged in the database records.
+what are you capable of answering,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+explain the backpropagation algorithm,dl_backprop,deep_learning,Backpropagation calculates the gradient of the loss function with respect to each model weight using the chain rule of calculus to update weights via gradient descent.
+i don't want my current pin for my wells account anymore,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+what type of questions can i ask you,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+what do i owe bill wise,bill_balance,service,Your current ledger balance is available in your account overview.
+what is the weather like in sparks right now,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+can you see if my order was delivered,order_status,service,Your recent order status is logged in the database records.
+what is my plan for the day,reminder,service,Reminders and tasks can be logged to your session memory.
+how is the weather in seattle,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+what is the time is central time zone,time,service,You can check current conversation timestamps on every message bubble.
+what does confrontation mean,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+can you find out what triggered a hold on my bank account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+how much money have i spent on restaurants,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+what price is my credit card and my water bill at,bill_balance,service,Your current ledger balance is available in your account overview.
+what timezone is scotland in,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+tell me the timezone for california,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+use the word ataraxy in a sentence,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+how much is my telephone bill this month,bill_balance,service,Your current ledger balance is available in your account overview.
+great thanks,gratitude,general,You are very welcome! Let me know if you need anything else.
+can you help me unlock my bank account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+what's the time in anchorage timezone,time,service,You can check current conversation timestamps on every message bubble.
+show me the transactions made on my business card for supplies last quarter,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+"what is the name that you have for me, please",user_name,service,I can identify your user profile from your secure session.
+what's the time zone in miami,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+"in 100 days from now, what will be the date",date,service,Today's date is managed through the system clock and conversation logs.
+did my order get here yet,order_status,service,Your recent order status is logged in the database records.
+"i forgot my pin number for my credit union bank account, can you help",pin_change,service,Security PIN changes require authenticated multi-factor verification.
+what transactions did i make on electronics this morning after 6am,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+what day is it gonna be in twenty-one days,date,service,Today's date is managed through the system clock and conversation logs.
+what day it today,date,service,Today's date is managed through the system clock and conversation logs.
+did i tell you to remind me about laundry,reminder,service,Reminders and tasks can be logged to your session memory.
+what is the date,date,service,Today's date is managed through the system clock and conversation logs.
+can you read me my list of reminders,reminder,service,Reminders and tasks can be logged to your session memory.
+what were the reminders that i made,reminder,service,Reminders and tasks can be logged to your session memory.
+what do you think i am called,user_name,service,I can identify your user profile from your secure session.
+in what timezone is atlanta located,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+my dte bill is how much,bill_balance,service,Your current ledger balance is available in your account overview.
+take one hundred and fifty bucks from my wells fargo checking account and put it in my wells fargo savings account,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+how cold is it in wisconsin today,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+i made a transaction recently,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+what items do i have on my amex card this month,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+"can you check what the problem with my account is, it seems to b e blocked",account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+in which time zone does denver reside,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+what's the time,time,service,You can check current conversation timestamps on every message bubble.
+are you able to tack my package,order_status,service,Your recent order status is logged in the database records.
+give me the timezone where vancouver is,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+may i please have a definition for the work churlish,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+what sort of stuff do you know,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+how is miami time zone like,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+what are the conditions like in sarasota,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+what is the name that you have for me,user_name,service,I can identify your user profile from your secure session.
+current weather,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+what kinds of subjects do you know about,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+please explain the word catastrophic to me,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+what's 3 plus 3,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+what is the amount due on my visa,bill_balance,service,Your current ledger balance is available in your account overview.
+is it going to be sunny today,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+what things can you help me with exactly,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+where's my package,order_status,service,Your recent order status is logged in the database records.
+"what is the sum of 3, 7, 9, and 24",calculator,service,I can evaluate mathematical expressions and machine learning equations.
+how does my name appear,user_name,service,I can identify your user profile from your secure session.
+can you tell me the time,time,service,You can check current conversation timestamps on every message bubble.
+"what is up with my account, why is it blocked",account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+the pin number to my card has been forgotten,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+today is what date,date,service,Today's date is managed through the system clock and conversation logs.
+bye bye,farewell,general,Goodbye! Have a productive day ahead. Feel free to return if you have more questions.
+can you give me info on miami weather,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+how much is due on the gas bill,bill_balance,service,Your current ledger balance is available in your account overview.
+what kind of questions can you answer,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+whens my insurance due and how much does it cost,bill_balance,service,Your current ledger balance is available in your account overview.
+how much do i owe on all of my bills,bill_balance,service,Your current ledger balance is available in your account overview.
+what is the electricity bill,bill_balance,service,Your current ledger balance is available in your account overview.
+which time zones does european countries use,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+what is 100 multiplied by 55,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+which way do you have my name saved,user_name,service,I can identify your user profile from your secure session.
+what topics can you answer questions on,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+how much are utilities,bill_balance,service,Your current ledger balance is available in your account overview.
+tell me what you can do for me,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+can you let me know if it will be warm this week,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+what is the square root of 10294,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+i think my account is block but i am not sure why,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+what is 005 percent of 1 percent,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+what was the last thing i purchased,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+"i'd like to just confirm all of the reminders currently on my list of reminders, please",reminder,service,Reminders and tasks can be logged to your session memory.
+what were the things i want to recall,reminder,service,Reminders and tasks can be logged to your session memory.
+tell me how much my cable bill is,bill_balance,service,Your current ledger balance is available in your account overview.
+do you have any idea what my name is,user_name,service,I can identify your user profile from your secure session.
+how is my order doing right now,order_status,service,Your recent order status is logged in the database records.
+what kinds of things can i ask you,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+which timezone is denver located,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+has my package been sent,order_status,service,Your recent order status is logged in the database records.
+can i ask you all different types of questions,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+call my name,user_name,service,I can identify your user profile from your secure session.
+what is 10000 divided by 20,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+what time is in over there in pacific standard time,time,service,You can check current conversation timestamps on every message bubble.
+how much do i have left to pay on my server and domain,bill_balance,service,Your current ledger balance is available in your account overview.
+what is the current time in mexico city,time,service,You can check current conversation timestamps on every message bubble.
+can you tell me the to do's on my reminder list,reminder,service,Reminders and tasks can be logged to your session memory.
+can you find out why is my bank account frozen,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+what are your features,bot_capabilities,general,"I can classify intents using trained ML models (Naive Bayes, SVM, Logistic Regression), extract NLP entities, track chat history, analyze datasets, and fallback to generative AI (Groq Qwen/Llama) for open-ended queries."
+access my checking account and update my pin to 1234,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+what is the meaning of the word lux,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+what is the date in 5 days,date,service,Today's date is managed through the system clock and conversation logs.
+who can i talk to right away about the current freeze on my account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+"i would like to hear the reminders that i listed on my things to remember list, please",reminder,service,Reminders and tasks can be logged to your session memory.
+what do you have my name saved under,user_name,service,I can identify your user profile from your secure session.
+can you tell me the meaning of fluctuate,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+tell me all updates about my order's status,order_status,service,Your recent order status is logged in the database records.
+what does peer-to-peer actually mean,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+how much is my internet bill,bill_balance,service,Your current ledger balance is available in your account overview.
+what does ner do,nlp_ner,nlp,"Named Entity Recognition (NER) identifies and categorizes key entities in text into predefined classes such as person names, organizations, locations, dates, and quantities."
+move 100 dollars from checking to savings,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+iterate the items on my reminder list,reminder,service,Reminders and tasks can be logged to your session memory.
+please tell me all of my recent transactions,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+can you move my money to my savings,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+check on the status of my order,order_status,service,Your recent order status is logged in the database records.
+glad to be here,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+can you do a math problem,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+list the things i wanted to remember,reminder,service,Reminders and tasks can be logged to your session memory.
+what is the weather like,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+track my package please,order_status,service,Your recent order status is logged in the database records.
+what skills do you have,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+what's the timezone over there,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+let's hear the definition of iridium,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+what's on my list of things to remember,reminder,service,Reminders and tasks can be logged to your session memory.
+show me the last month of transactions,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+what does epicurean mean,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+define discontent,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+can you help me solve a math problem,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+send 100 dollars from my vanguard money market to my wells fargo savings,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+what's the updated status of my order,order_status,service,Your recent order status is logged in the database records.
+tell me where my order is,order_status,service,Your recent order status is logged in the database records.
+how much have i spent on my debit card this month,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+quit,farewell,general,Goodbye! Have a productive day ahead. Feel free to return if you have more questions.
+say my name,user_name,service,I can identify your user profile from your secure session.
+what is the square root of 144,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+what is natural language processing,nlp_definition,nlp,"Natural Language Processing (NLP) is a subfield of AI focused on enabling computers to understand, interpret, and generate human language using statistical, ML, and deep learning techniques."
+what time is it in the eastern timezone,time,service,You can check current conversation timestamps on every message bubble.
+would you mind telling me the time,time,service,You can check current conversation timestamps on every message bubble.
+transfer funds to the other account,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+what's today's weather,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+what will the weather be this weekend,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+"before i pay my capital one, what are the most recent transactions i've made",transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+what is the current weather like,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+what would you say my gas and phone bills are at,bill_balance,service,Your current ledger balance is available in your account overview.
+can you tell me which timezone is cambodia in,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+the date tomorrow is what,date,service,Today's date is managed through the system clock and conversation logs.
+why would a hold have been placed on my checking account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+what types of things do you know,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+"on my reminders list, is there an item called conference call",reminder,service,Reminders and tasks can be logged to your session memory.
+what timezone is the country in,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+how can i send money from one account to another,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+what do you call me,user_name,service,I can identify your user profile from your secure session.
+open bank app and show my most recent transactions,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+what's the highest chance of rain for today,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+what time is it in phoenix,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+let me know the name you have for me,user_name,service,I can identify your user profile from your secure session.
+can you tell me how much i need to pay on my bills this month,bill_balance,service,Your current ledger balance is available in your account overview.
+do you have the time,time,service,You can check current conversation timestamps on every message bubble.
+what's the timezone for britain,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+why is my checking account not working,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+what does altruism mean,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+do you know what my name is,user_name,service,I can identify your user profile from your secure session.
+where is my order,order_status,service,Your recent order status is logged in the database records.
+tell me what is on my reminder list,reminder,service,Reminders and tasks can be logged to your session memory.
+i need an update on my online order from nespresso,order_status,service,Your recent order status is logged in the database records.
+good morning,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+show my my most recent visa card transaction,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+how come my chase account has a hold on it,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+i need la's time zone,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+i would like to transfer $100 from my checking to saving account,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+for italy what timezone is it in,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+why was a hold placed on my wells fargo account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+help me transfer $x from credit to debit,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+sup,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+what is the definition of didactic,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+state recent transaction,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+"what time is it right now in adelaide, australia",time,service,You can check current conversation timestamps on every message bubble.
+read my reminder list back to me,reminder,service,Reminders and tasks can be logged to your session memory.
+i would like to get today's date,date,service,Today's date is managed through the system clock and conversation logs.
+what was it i wanted to remember,reminder,service,Reminders and tasks can be logged to your session memory.
+can you remind me what i was trying to remember,reminder,service,Reminders and tasks can be logged to your session memory.
+tell me what the date is tomorrow,date,service,Today's date is managed through the system clock and conversation logs.
+find the square root of 1243435,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+i need to know what names you have for me,user_name,service,I can identify your user profile from your secure session.
+evaluation metrics in ml,ml_metrics,ml,"Precision is TP / (TP + FP) (correct positive predictions), Recall is TP / (TP + FN) (actual positives caught), and F1-score is the harmonic mean balancing precision and recall."
+why did my bank place a hold on my bank account,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+let me know what's on my list of reminders,reminder,service,Reminders and tasks can be logged to your session memory.
+in what timezone is nigeria,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+what is regard mean,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+please tell me this month's transactions on my visa,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+will my order be here by saturday,order_status,service,Your recent order status is logged in the database records.
+transfer two hundred dollars between my portfolio and my money market account,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+what is 48 multiplied by 4 divided by 2,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+can you please remind me of the items that i made note of to not forget,reminder,service,Reminders and tasks can be logged to your session memory.
+explain supervised vs unsupervised learning,ml_paradigms,ml,"Supervised learning trains models on labeled input-output pairs to predict outcomes, while unsupervised learning discovers inherent patterns, clusters, and structures in unlabeled data."
+what are my recent purchases,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+costa mesa weather,weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+what is the current day,date,service,Today's date is managed through the system clock and conversation logs.
+is my visa bill over my limit this month,transactions,service,All transactions and interaction histories are recorded securely in MongoDB.
+why is my account blocked,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+how can i benefit from using you,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+what day of the week are we on,date,service,Today's date is managed through the system clock and conversation logs.
+has my order been shipped,order_status,service,Your recent order status is logged in the database records.
+send money from one account to another,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+what information can i ask you,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+so what subjects do you like,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+did my order get delivered,order_status,service,Your recent order status is logged in the database records.
+what is the meaning of telepathy,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+what is a confusion matrix in machine learning,ml_confusion_matrix,ml,"A Confusion Matrix is a performance table comparing actual ground truth labels against model predictions across True Positives, True Negatives, False Positives, and False Negatives."
+i would like to distribute some money between my accounts,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+is grocery shopping on my reminders list,reminder,service,Reminders and tasks can be logged to your session memory.
+what does ataraxy mean,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+what timezone is chicago in,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+evening,greeting,general,"Hello! I am NeuroChat AI, your intelligent assistant powered by real NLP and Machine Learning. How can I assist you today?"
+what kid of subjects do you excel in,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+denver's timezone is what,timezone,service,The server system runs on standard UTC time and adapts to your client time.
+tell me the subject areas you are familiar with,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+definition of anachronism,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+why does my credit union account have a hold on it,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+what all can you do,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+what do i go by,user_name,service,I can identify your user profile from your secure session.
+"transfer ninety dollars between glacier checking and farmers accounts, please",transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+what can you help me with exactly,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+tell me what today's date is,date,service,Today's date is managed through the system clock and conversation logs.
+is my order at the delivery address,order_status,service,Your recent order status is logged in the database records.
+what do you know,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+what kind of questions do you accept,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+how much is my bill for capital one,bill_balance,service,Your current ledger balance is available in your account overview.
+what things do you know about,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+switch my amex pin to 1234,pin_change,service,Security PIN changes require authenticated multi-factor verification.
+explain self-attention architecture,dl_transformers,deep_learning,The Transformer is a deep learning architecture that relies entirely on self-attention mechanisms to model global dependencies between input tokens in parallel without sequential recurrence.
+i want to track a package i should be getting,order_status,service,Your recent order status is logged in the database records.
+take $20000 from savings and put it in checking,transfer,service,Funds transfer requires elevated user verification and ledger confirmation.
+have you the time,time,service,You can check current conversation timestamps on every message bubble.
+what time is it in the central timezone,time,service,You can check current conversation timestamps on every message bubble.
+what subjects do you like,what_can_i_ask_you,service,"You can ask me questions about NLP, Machine Learning, Deep Learning algorithms, or check system analytics."
+what is the total amount that i owe to sony and verizon,bill_balance,service,Your current ledger balance is available in your account overview.
+how did my bank account is frozen,account_blocked,service,"If your account is locked, an administrator can unlock it via the Admin Dashboard."
+recall the things i wanted to remember,reminder,service,Reminders and tasks can be logged to your session memory.
+what are hidden layers in a neural network,dl_neural_network,deep_learning,"An Artificial Neural Network is a computational architecture inspired by biological neural circuits, composed of layers of interconnected nodes (neurons) that learn non-linear representations via forward propagation and backpropagation."
+what is 34 times 80908,calculator,service,I can evaluate mathematical expressions and machine learning equations.
+i need to know what adumbrate means can you look it up for me now,definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."
+"is it snowing right now in richmond, va",weather,service,Weather queries can be augmented with real-time API integrations or generative fallback.
+is my order on its way or what's going on,order_status,service,Your recent order status is logged in the database records.
+"what is the meaning of word ""rescind",definition,service,"Provide any computer science term, and I will define its mathematical and practical meaning."

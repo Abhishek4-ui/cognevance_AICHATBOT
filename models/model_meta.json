@@ -1,0 +1,775 @@
+{
+  "trained_at": "2026-11-08T16:31:42.939151",
+  "num_classes": 36,
+  "classes": [
+    "account_blocked",
+    "bill_balance",
+    "bot_capabilities",
+    "bot_identity",
+    "calculator",
+    "date",
+    "definition",
+    "dl_backprop",
+    "dl_neural_network",
+    "dl_transformers",
+    "farewell",
+    "gratitude",
+    "greeting",
+    "ml_confusion_matrix",
+    "ml_cross_validation",
+    "ml_logistic_regression",
+    "ml_metrics",
+    "ml_overfitting",
+    "ml_paradigms",
+    "ml_svm",
+    "nlp_definition",
+    "nlp_embeddings",
+    "nlp_lemmatization",
+    "nlp_ner",
+    "nlp_tfidf",
+    "nlp_tokenization",
+    "order_status",
+    "pin_change",
+    "reminder",
+    "time",
+    "timezone",
+    "transactions",
+    "transfer",
+    "user_name",
+    "weather",
+    "what_can_i_ask_you"
+  ],
+  "num_train_samples": 1310,
+  "num_test_samples": 328,
+  "vocabulary_size": 2854,
+  "best_model": "linear_svm",
+  "active_model": "linear_svm",
+  "models": {
+    "naive_bayes": {
+      "cv_accuracy_mean": 0.8656,
+      "cv_accuracy_std": 0.0151,
+      "test_accuracy": 0.8872,
+      "precision_weighted": 0.8534,
+      "recall_weighted": 0.8872,
+      "f1_weighted": 0.8642,
+      "precision_macro": 0.5665,
+      "recall_macro": 0.5528,
+      "f1_macro": 0.5498,
+      "classification_report": {
+        "account_blocked": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1-score": 0.8888888888888888,
+          "support": 20.0
+        },
+        "bill_balance": {
+          "precision": 0.9047619047619048,
+          "recall": 0.95,
+          "f1-score": 0.926829268292683,
+          "support": 20.0
+        },
+        "bot_capabilities": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1-score": 0.6666666666666666,
+          "support": 2.0
+        },
+        "bot_identity": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "calculator": {
+          "precision": 0.9444444444444444,
+          "recall": 0.85,
+          "f1-score": 0.8947368421052632,
+          "support": 20.0
+        },
+        "date": {
+          "precision": 0.9090909090909091,
+          "recall": 1.0,
+          "f1-score": 0.9523809523809523,
+          "support": 20.0
+        },
+        "definition": {
+          "precision": 0.9047619047619048,
+          "recall": 0.95,
+          "f1-score": 0.926829268292683,
+          "support": 20.0
+        },
+        "dl_backprop": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "dl_neural_network": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "dl_transformers": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "farewell": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "gratitude": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 2.0
+        },
+        "greeting": {
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1-score": 0.4,
+          "support": 4.0
+        },
+        "ml_confusion_matrix": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "ml_cross_validation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "ml_logistic_regression": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "ml_metrics": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "ml_overfitting": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "ml_paradigms": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "ml_svm": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "nlp_definition": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "nlp_embeddings": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "nlp_lemmatization": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "nlp_ner": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "nlp_tfidf": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "nlp_tokenization": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "order_status": {
+          "precision": 0.8636363636363636,
+          "recall": 0.95,
+          "f1-score": 0.9047619047619048,
+          "support": 20.0
+        },
+        "pin_change": {
+          "precision": 0.9523809523809523,
+          "recall": 1.0,
+          "f1-score": 0.975609756097561,
+          "support": 20.0
+        },
+        "reminder": {
+          "precision": 0.95,
+          "recall": 0.95,
+          "f1-score": 0.95,
+          "support": 20.0
+        },
+        "time": {
+          "precision": 0.9,
+          "recall": 0.9,
+          "f1-score": 0.9,
+          "support": 20.0
+        },
+        "timezone": {
+          "precision": 0.9523809523809523,
+          "recall": 1.0,
+          "f1-score": 0.975609756097561,
+          "support": 20.0
+        },
+        "transactions": {
+          "precision": 0.8947368421052632,
+          "recall": 0.85,
+          "f1-score": 0.8717948717948718,
+          "support": 20.0
+        },
+        "transfer": {
+          "precision": 0.95,
+          "recall": 0.95,
+          "f1-score": 0.95,
+          "support": 20.0
+        },
+        "user_name": {
+          "precision": 0.6428571428571429,
+          "recall": 0.9,
+          "f1-score": 0.75,
+          "support": 20.0
+        },
+        "weather": {
+          "precision": 1.0,
+          "recall": 0.95,
+          "f1-score": 0.9743589743589743,
+          "support": 20.0
+        },
+        "what_can_i_ask_you": {
+          "precision": 0.8260869565217391,
+          "recall": 0.95,
+          "f1-score": 0.8837209302325582,
+          "support": 20.0
+        },
+        "accuracy": 0.8871951219512195,
+        "macro avg": {
+          "precision": 0.5665316214705993,
+          "recall": 0.5527777777777776,
+          "f1-score": 0.5497830022214046,
+          "support": 328.0
+        },
+        "weighted avg": {
+          "precision": 0.8533620959110716,
+          "recall": 0.8871951219512195,
+          "f1-score": 0.864157809754303,
+          "support": 328.0
+        }
+      }
+    },
+    "logistic_regression": {
+      "cv_accuracy_mean": 0.8748,
+      "cv_accuracy_std": 0.0108,
+      "test_accuracy": 0.8933,
+      "precision_weighted": 0.8635,
+      "recall_weighted": 0.8933,
+      "f1_weighted": 0.871,
+      "precision_macro": 0.5712,
+      "recall_macro": 0.5556,
+      "f1_macro": 0.5529,
+      "classification_report": {
+        "account_blocked": {
+          "precision": 0.8636363636363636,
+          "recall": 0.95,
+          "f1-score": 0.9047619047619048,
+          "support": 20.0
+        },
+        "bill_balance": {
+          "precision": 0.8,
+          "recall": 1.0,
+          "f1-score": 0.8888888888888888,
+          "support": 20.0
+        },
+        "bot_capabilities": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1-score": 0.6666666666666666,
+          "support": 2.0
+        },
+        "bot_identity": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "calculator": {
+          "precision": 0.6,
+          "recall": 0.9,
+          "f1-score": 0.72,
+          "support": 20.0
+        },
+        "date": {
+          "precision": 0.9047619047619048,
+          "recall": 0.95,
+          "f1-score": 0.926829268292683,
+          "support": 20.0
+        },
+        "definition": {
+          "precision": 0.9090909090909091,
+          "recall": 1.0,
+          "f1-score": 0.9523809523809523,
+          "support": 20.0
+        },
+        "dl_backprop": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "dl_neural_network": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "dl_transformers": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "farewell": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "gratitude": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 2.0
+        },
+        "greeting": {
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1-score": 0.4,
+          "support": 4.0
+        },
+        "ml_confusion_matrix": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "ml_cross_validation": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "ml_logistic_regression": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "ml_metrics": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "ml_overfitting": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "ml_paradigms": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "ml_svm": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "nlp_definition": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "nlp_embeddings": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "nlp_lemmatization": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "nlp_ner": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "nlp_tfidf": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "nlp_tokenization": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "order_status": {
+          "precision": 0.8636363636363636,
+          "recall": 0.95,
+          "f1-score": 0.9047619047619048,
+          "support": 20.0
+        },
+        "pin_change": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 20.0
+        },
+        "reminder": {
+          "precision": 1.0,
+          "recall": 0.95,
+          "f1-score": 0.9743589743589743,
+          "support": 20.0
+        },
+        "time": {
+          "precision": 0.9523809523809523,
+          "recall": 1.0,
+          "f1-score": 0.975609756097561,
+          "support": 20.0
+        },
+        "timezone": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 20.0
+        },
+        "transactions": {
+          "precision": 0.9375,
+          "recall": 0.75,
+          "f1-score": 0.8333333333333334,
+          "support": 20.0
+        },
+        "transfer": {
+          "precision": 1.0,
+          "recall": 0.95,
+          "f1-score": 0.9743589743589743,
+          "support": 20.0
+        },
+        "user_name": {
+          "precision": 0.9473684210526315,
+          "recall": 0.9,
+          "f1-score": 0.9230769230769231,
+          "support": 20.0
+        },
+        "weather": {
+          "precision": 0.95,
+          "recall": 0.95,
+          "f1-score": 0.95,
+          "support": 20.0
+        },
+        "what_can_i_ask_you": {
+          "precision": 0.8333333333333334,
+          "recall": 1.0,
+          "f1-score": 0.9090909090909091,
+          "support": 20.0
+        },
+        "accuracy": 0.8932926829268293,
+        "macro avg": {
+          "precision": 0.571158562441457,
+          "recall": 0.5555555555555556,
+          "f1-score": 0.5528921793352688,
+          "support": 328.0
+        },
+        "weighted avg": {
+          "precision": 0.8635187956031987,
+          "recall": 0.8932926829268293,
+          "f1-score": 0.8709828326871752,
+          "support": 328.0
+        }
+      }
+    },
+    "linear_svm": {
+      "cv_accuracy_mean": 0.9023,
+      "cv_accuracy_std": 0.0055,
+      "test_accuracy": 0.9238,
+      "precision_weighted": 0.9154,
+      "recall_weighted": 0.9238,
+      "f1_weighted": 0.9146,
+      "precision_macro": 0.8191,
+      "recall_macro": 0.8069,
+      "f1_macro": 0.8015,
+      "classification_report": {
+        "account_blocked": {
+          "precision": 0.95,
+          "recall": 0.95,
+          "f1-score": 0.95,
+          "support": 20.0
+        },
+        "bill_balance": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 20.0
+        },
+        "bot_capabilities": {
+          "precision": 1.0,
+          "recall": 0.5,
+          "f1-score": 0.6666666666666666,
+          "support": 2.0
+        },
+        "bot_identity": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "calculator": {
+          "precision": 0.75,
+          "recall": 0.9,
+          "f1-score": 0.8181818181818182,
+          "support": 20.0
+        },
+        "date": {
+          "precision": 0.9047619047619048,
+          "recall": 0.95,
+          "f1-score": 0.926829268292683,
+          "support": 20.0
+        },
+        "definition": {
+          "precision": 0.9523809523809523,
+          "recall": 1.0,
+          "f1-score": 0.975609756097561,
+          "support": 20.0
+        },
+        "dl_backprop": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "dl_neural_network": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "dl_transformers": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "farewell": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 2.0
+        },
+        "gratitude": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 2.0
+        },
+        "greeting": {
+          "precision": 1.0,
+          "recall": 0.25,
+          "f1-score": 0.4,
+          "support": 4.0
+        },
+        "ml_confusion_matrix": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "ml_cross_validation": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "ml_logistic_regression": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "ml_metrics": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "ml_overfitting": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "ml_paradigms": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "ml_svm": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "nlp_definition": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "nlp_embeddings": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "nlp_lemmatization": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 1.0
+        },
+        "nlp_ner": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "nlp_tfidf": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 1.0
+        },
+        "nlp_tokenization": {
+          "precision": 0.5,
+          "recall": 1.0,
+          "f1-score": 0.6666666666666666,
+          "support": 1.0
+        },
+        "order_status": {
+          "precision": 0.8636363636363636,
+          "recall": 0.95,
+          "f1-score": 0.9047619047619048,
+          "support": 20.0
+        },
+        "pin_change": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 20.0
+        },
+        "reminder": {
+          "precision": 1.0,
+          "recall": 0.95,
+          "f1-score": 0.9743589743589743,
+          "support": 20.0
+        },
+        "time": {
+          "precision": 0.9523809523809523,
+          "recall": 1.0,
+          "f1-score": 0.975609756097561,
+          "support": 20.0
+        },
+        "timezone": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 20.0
+        },
+        "transactions": {
+          "precision": 0.9411764705882353,
+          "recall": 0.8,
+          "f1-score": 0.8648648648648649,
+          "support": 20.0
+        },
+        "transfer": {
+          "precision": 1.0,
+          "recall": 0.95,
+          "f1-score": 0.9743589743589743,
+          "support": 20.0
+        },
+        "user_name": {
+          "precision": 0.8947368421052632,
+          "recall": 0.85,
+          "f1-score": 0.8717948717948718,
+          "support": 20.0
+        },
+        "weather": {
+          "precision": 0.9090909090909091,
+          "recall": 1.0,
+          "f1-score": 0.9523809523809523,
+          "support": 20.0
+        },
+        "what_can_i_ask_you": {
+          "precision": 0.8695652173913043,
+          "recall": 1.0,
+          "f1-score": 0.9302325581395349,
+          "support": 20.0
+        },
+        "accuracy": 0.9237804878048781,
+        "macro avg": {
+          "precision": 0.8191036003426635,
+          "recall": 0.8069444444444445,
+          "f1-score": 0.8014532509073065,
+          "support": 328.0
+        },
+        "weighted avg": {
+          "precision": 0.9154103422156028,
+          "recall": 0.9237804878048781,
+          "f1-score": 0.9145721767883963,
+          "support": 328.0
+        }
+      }
+    }
+  }
+}
